@@ -1,8 +1,9 @@
 # Cloud Cost Optimization Analytics
 
-A portfolio project combining **AWS/Azure cloud engineering, FinOps, SQL, Python and Power BI** to identify right-sizing opportunities, idle resources, cost anomalies and potential savings.
 
-> **Data note:** All billing and utilisation records are synthetic. No employer, customer or real cloud billing data is included.
+## Demo Preview
+
+![Cloud cost dashboard preview](assets/dashboard-preview.png)
 
 ## Business Problem
 
