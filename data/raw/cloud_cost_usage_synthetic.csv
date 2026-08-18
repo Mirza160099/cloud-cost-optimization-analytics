@@ -1,0 +1,841 @@
+month,provider,resource_id,service,environment,owner_team,region,monthly_cost_gbp,cpu_avg_pct,memory_avg_pct,uptime_pct,storage_util_pct,monthly_requests,tag_compliant,reserved_coverage_pct,cost_anomaly
+2026-01,AWS,RES-00001,EC2,UAT,Security,eu-west-1,246.25,8.3,54.3,55.9,,,1,70.5,0
+2026-01,Azure,RES-00002,SQL Database,UAT,Data,East US,245.18,,,69.8,,,1,24.6,0
+2026-01,AWS,RES-00003,S3,Dev,Data,us-east-1,38.05,,,75.0,79.0,618.0,1,,0
+2026-01,AWS,RES-00004,EC2,Prod,Platform,eu-west-1,129.96,71.0,18.8,29.4,,,1,78.5,0
+2026-01,Azure,RES-00005,Virtual Machines,Prod,Applications,West Europe,90.18,15.5,26.7,72.7,,,1,74.3,0
+2026-01,AWS,RES-00006,RDS,Dev,Applications,eu-west-2,317.72,,,32.3,,,1,83.0,0
+2026-01,AWS,RES-00007,Load Balancer,Prod,Platform,us-east-1,79.51,,,57.0,,887.0,1,,0
+2026-01,AWS,RES-00008,RDS,UAT,Data,eu-west-2,288.96,,,38.4,,,1,39.9,0
+2026-01,AWS,RES-00009,EC2,Dev,Platform,us-east-1,181.86,1.2,64.9,95.4,,,1,19.6,0
+2026-01,AWS,RES-00010,Load Balancer,Prod,Security,eu-west-2,125.8,,,89.4,,1278.0,0,,0
+2026-01,AWS,RES-00011,NAT Gateway,UAT,Applications,eu-west-1,219.64,,,69.6,,,0,,0
+2026-01,AWS,RES-00012,S3,Dev,Platform,us-east-1,79.69,,,57.8,47.4,928.0,1,,1
+2026-01,AWS,RES-00013,EC2,Prod,Cloud Ops,eu-west-2,301.46,21.6,22.1,83.5,,,1,3.1,0
+2026-01,Azure,RES-00014,Virtual Machines,UAT,Security,UK South,293.71,3.0,53.7,82.7,,,1,83.0,0
+2026-01,Azure,RES-00015,Blob Storage,UAT,Security,East US,64.71,,,72.2,24.1,4162.0,1,,0
+2026-01,Azure,RES-00016,SQL Database,Prod,Platform,East US,338.79,,,91.0,,,1,2.5,0
+2026-01,AWS,RES-00017,S3,Prod,Platform,us-east-1,60.05,,,32.2,54.4,1503.0,1,,0
+2026-01,AWS,RES-00018,EBS,Prod,Applications,us-east-1,118.96,,,50.7,75.6,,1,,0
+2026-01,AWS,RES-00019,S3,Dev,Data,eu-west-2,82.73,,,75.4,6.7,1004.0,1,,0
+2026-01,Azure,RES-00020,SQL Database,Dev,Security,East US,333.18,,,99.6,,,0,93.6,0
+2026-01,AWS,RES-00021,EBS,UAT,Security,us-east-1,42.45,,,71.8,46.8,,1,,0
+2026-01,Azure,RES-00022,NAT Gateway,Prod,Applications,West Europe,113.59,,,80.5,,,1,,0
+2026-01,Azure,RES-00023,Managed Disks,Prod,Cloud Ops,West Europe,54.51,,,31.3,33.8,,0,,0
+2026-01,Azure,RES-00024,Virtual Machines,UAT,Platform,East US,178.08,20.1,46.9,97.9,,,1,43.3,0
+2026-01,Azure,RES-00025,SQL Database,Prod,Security,East US,367.17,,,47.5,,,1,59.6,0
+2026-01,Azure,RES-00026,SQL Database,UAT,Data,West Europe,280.8,,,66.3,,,1,90.3,1
+2026-01,Azure,RES-00027,NAT Gateway,Prod,Data,West Europe,129.07,,,96.5,,,1,,0
+2026-01,AWS,RES-00028,Load Balancer,Dev,Platform,eu-west-1,77.22,,,74.8,,1786.0,1,,0
+2026-01,AWS,RES-00029,RDS,Dev,Security,eu-west-2,290.87,,,31.9,,,1,35.7,0
+2026-01,AWS,RES-00030,S3,UAT,Data,eu-west-1,46.33,,,52.0,29.3,1474.0,1,,0
+2026-01,AWS,RES-00031,RDS,UAT,Platform,us-east-1,226.92,,,43.8,,,1,11.4,0
+2026-01,AWS,RES-00032,NAT Gateway,Prod,Security,eu-west-1,235.67,,,98.2,,,1,,1
+2026-01,Azure,RES-00033,Managed Disks,Prod,Applications,UK South,78.03,,,67.0,70.4,,1,,0
+2026-01,Azure,RES-00034,Managed Disks,UAT,Security,East US,30.17,,,92.0,11.8,,1,,0
+2026-01,Azure,RES-00035,SQL Database,Dev,Security,UK South,689.45,,,69.0,,,0,83.8,1
+2026-01,AWS,RES-00036,S3,Prod,Platform,us-east-1,163.88,,,50.5,42.1,3238.0,1,,0
+2026-01,Azure,RES-00037,Load Balancer,Dev,Applications,UK South,79.13,,,65.0,,436.0,1,,0
+2026-01,Azure,RES-00038,SQL Database,Prod,Platform,East US,275.18,,,35.1,,,1,33.1,0
+2026-01,Azure,RES-00039,SQL Database,Prod,Security,UK South,282.34,,,74.8,,,1,34.8,0
+2026-01,Azure,RES-00040,Virtual Machines,UAT,Cloud Ops,UK South,305.66,17.9,72.5,84.2,,,1,17.5,0
+2026-01,AWS,RES-00041,EBS,Prod,Platform,eu-west-2,28.24,,,93.6,19.5,,1,,0
+2026-01,AWS,RES-00042,S3,Prod,Cloud Ops,eu-west-2,64.39,,,65.5,30.8,618.0,1,,0
+2026-01,AWS,RES-00043,S3,Dev,Cloud Ops,us-east-1,46.4,,,52.3,31.0,1254.0,1,,0
+2026-01,Azure,RES-00044,Load Balancer,Prod,Data,West Europe,109.56,,,48.3,,559.0,1,,0
+2026-01,AWS,RES-00045,EBS,Prod,Applications,us-east-1,117.36,,,56.4,28.3,,1,,0
+2026-01,Azure,RES-00046,Virtual Machines,Prod,Security,West Europe,199.8,50.4,30.8,29.4,,,1,89.4,0
+2026-01,Azure,RES-00047,Blob Storage,Prod,Security,East US,35.2,,,42.5,50.2,3130.0,1,,0
+2026-01,Azure,RES-00048,SQL Database,Prod,Data,East US,196.45,,,85.0,,,1,98.1,0
+2026-01,AWS,RES-00049,EC2,Prod,Applications,eu-west-1,242.97,12.4,44.7,57.4,,,1,20.1,0
+2026-01,AWS,RES-00050,RDS,Prod,Data,eu-west-1,443.18,,,59.1,,,1,45.8,0
+2026-01,AWS,RES-00051,EC2,Dev,Security,eu-west-2,147.26,9.8,10.1,72.0,,,1,4.9,0
+2026-01,Azure,RES-00052,Virtual Machines,Dev,Cloud Ops,East US,105.62,33.4,10.6,82.7,,,0,75.9,0
+2026-01,Azure,RES-00053,Blob Storage,Prod,Platform,West Europe,59.65,,,76.6,84.9,1413.0,1,,0
+2026-01,Azure,RES-00054,Load Balancer,UAT,Data,East US,67.37,,,46.5,,171.0,1,,0
+2026-01,Azure,RES-00055,Virtual Machines,Prod,Data,East US,498.57,11.7,18.8,95.1,,,1,10.0,1
+2026-01,AWS,RES-00056,EC2,Prod,Security,eu-west-2,85.93,19.8,34.8,16.2,,,1,35.1,0
+2026-01,Azure,RES-00057,Managed Disks,Prod,Data,West Europe,76.34,,,62.5,11.9,,1,,0
+2026-01,AWS,RES-00058,S3,Prod,Cloud Ops,eu-west-2,43.16,,,84.8,18.8,1145.0,1,,0
+2026-01,AWS,RES-00059,Load Balancer,UAT,Data,us-east-1,138.06,,,42.8,,2049.0,1,,0
+2026-01,Azure,RES-00060,Virtual Machines,Prod,Security,West Europe,288.58,14.5,43.8,61.3,,,1,12.0,0
+2026-01,Azure,RES-00061,Managed Disks,Dev,Cloud Ops,East US,82.24,,,31.3,17.4,,1,,0
+2026-01,Azure,RES-00062,NAT Gateway,Prod,Applications,UK South,88.07,,,68.0,,,1,,0
+2026-01,Azure,RES-00063,SQL Database,Prod,Cloud Ops,East US,566.97,,,58.6,,,1,6.7,0
+2026-01,Azure,RES-00064,Blob Storage,Prod,Platform,East US,62.62,,,31.0,54.9,2645.0,1,,0
+2026-01,Azure,RES-00065,Virtual Machines,Dev,Data,West Europe,295.82,31.2,33.9,50.4,,,1,52.1,0
+2026-01,Azure,RES-00066,Virtual Machines,Prod,Security,West Europe,312.76,45.0,8.5,87.0,,,1,25.0,0
+2026-01,Azure,RES-00067,SQL Database,Prod,Cloud Ops,East US,305.43,,,90.1,,,0,26.5,0
+2026-01,Azure,RES-00068,NAT Gateway,Dev,Security,East US,54.18,,,92.9,,,1,,0
+2026-01,Azure,RES-00069,Blob Storage,Prod,Applications,West Europe,174.9,,,31.2,15.4,147.0,1,,1
+2026-01,Azure,RES-00070,NAT Gateway,Prod,Platform,West Europe,158.06,,,71.2,,,1,,0
+2026-01,Azure,RES-00071,Blob Storage,Dev,Platform,West Europe,42.67,,,67.1,57.4,1963.0,1,,0
+2026-01,Azure,RES-00072,Virtual Machines,Dev,Data,East US,218.28,39.4,54.7,89.6,,,1,3.8,0
+2026-01,Azure,RES-00073,Load Balancer,Dev,Applications,UK South,45.52,,,89.6,,644.0,1,,0
+2026-01,AWS,RES-00074,Load Balancer,UAT,Data,eu-west-1,98.64,,,53.0,,519.0,1,,0
+2026-01,AWS,RES-00075,Load Balancer,Dev,Cloud Ops,us-east-1,165.09,,,93.5,,4026.0,1,,0
+2026-01,Azure,RES-00076,SQL Database,Prod,Applications,West Europe,203.23,,,89.3,,,1,80.0,0
+2026-01,AWS,RES-00077,EBS,Prod,Cloud Ops,eu-west-2,40.16,,,91.6,53.3,,1,,0
+2026-01,Azure,RES-00078,Load Balancer,UAT,Data,UK South,51.61,,,91.3,,217.0,1,,0
+2026-01,AWS,RES-00079,Load Balancer,Dev,Security,eu-west-2,85.97,,,83.3,,3662.0,1,,0
+2026-01,AWS,RES-00080,EC2,Prod,Security,eu-west-2,281.6,21.9,54.6,77.2,,,1,75.7,1
+2026-01,AWS,RES-00081,EBS,Dev,Data,eu-west-1,51.57,,,87.8,39.2,,1,,0
+2026-01,AWS,RES-00082,RDS,Prod,Data,us-east-1,98.17,,,70.2,,,1,28.4,0
+2026-01,AWS,RES-00083,EC2,Prod,Data,eu-west-2,335.51,9.7,41.2,62.0,,,1,60.5,0
+2026-01,Azure,RES-00084,Virtual Machines,UAT,Data,East US,386.84,38.9,29.7,21.4,,,0,60.5,0
+2026-01,AWS,RES-00085,EC2,Prod,Applications,us-east-1,222.71,64.9,44.0,22.0,,,1,21.1,0
+2026-01,Azure,RES-00086,Managed Disks,Prod,Security,East US,81.11,,,98.8,16.7,,1,,0
+2026-01,Azure,RES-00087,Virtual Machines,UAT,Applications,East US,308.76,24.7,46.6,78.1,,,1,29.9,0
+2026-01,Azure,RES-00088,Virtual Machines,Prod,Platform,East US,261.03,30.5,81.7,72.8,,,1,15.0,0
+2026-01,Azure,RES-00089,SQL Database,Prod,Security,East US,691.53,,,79.2,,,0,26.2,0
+2026-01,AWS,RES-00090,EC2,Prod,Applications,us-east-1,298.31,46.7,56.1,60.2,,,0,6.7,0
+2026-01,Azure,RES-00091,Virtual Machines,UAT,Cloud Ops,East US,162.8,20.3,42.7,26.3,,,1,80.8,0
+2026-01,AWS,RES-00092,Load Balancer,Dev,Applications,us-east-1,172.81,,,86.9,,362.0,1,,0
+2026-01,Azure,RES-00093,SQL Database,Dev,Applications,West Europe,542.14,,,37.2,,,1,43.3,0
+2026-01,AWS,RES-00094,S3,Prod,Applications,us-east-1,61.55,,,69.5,62.6,3911.0,1,,0
+2026-01,Azure,RES-00095,Virtual Machines,Prod,Security,UK South,392.9,15.5,24.6,85.8,,,1,31.3,0
+2026-01,Azure,RES-00096,Managed Disks,UAT,Applications,East US,74.16,,,71.1,51.8,,1,,0
+2026-01,AWS,RES-00097,Load Balancer,Prod,Security,eu-west-1,90.78,,,88.1,,299.0,1,,0
+2026-01,AWS,RES-00098,EBS,Prod,Data,eu-west-1,50.33,,,94.2,28.5,,1,,0
+2026-01,Azure,RES-00099,Virtual Machines,UAT,Applications,West Europe,95.32,17.0,52.5,41.2,,,1,73.6,0
+2026-01,AWS,RES-00100,EC2,UAT,Data,eu-west-2,134.52,19.6,88.0,65.7,,,1,46.5,0
+2026-01,AWS,RES-00101,EBS,Dev,Applications,us-east-1,72.14,,,36.3,36.8,,1,,0
+2026-01,AWS,RES-00102,Load Balancer,UAT,Applications,us-east-1,160.69,,,62.0,,2813.0,1,,0
+2026-01,Azure,RES-00103,Blob Storage,Prod,Security,West Europe,47.62,,,85.7,68.9,548.0,1,,0
+2026-01,Azure,RES-00104,Virtual Machines,Dev,Data,East US,70.07,14.1,76.7,38.5,,,1,65.9,0
+2026-01,Azure,RES-00105,Blob Storage,Prod,Platform,East US,24.42,,,31.1,60.5,2560.0,1,,0
+2026-01,AWS,RES-00106,S3,Prod,Platform,eu-west-1,26.81,,,72.5,19.3,495.0,0,,1
+2026-01,AWS,RES-00107,EBS,Prod,Applications,us-east-1,78.03,,,32.6,65.7,,1,,0
+2026-01,AWS,RES-00108,EBS,Dev,Security,eu-west-2,91.55,,,98.8,32.1,,1,,0
+2026-01,Azure,RES-00109,Managed Disks,Dev,Cloud Ops,UK South,61.65,,,47.2,54.5,,1,,0
+2026-01,Azure,RES-00110,Load Balancer,UAT,Applications,West Europe,117.93,,,63.0,,1422.0,1,,1
+2026-01,AWS,RES-00111,EBS,Prod,Data,eu-west-2,66.43,,,67.5,78.6,,1,,0
+2026-01,AWS,RES-00112,EBS,Prod,Security,us-east-1,89.56,,,78.7,3.8,,1,,0
+2026-01,Azure,RES-00113,NAT Gateway,Dev,Security,West Europe,75.14,,,63.7,,,1,,0
+2026-01,Azure,RES-00114,SQL Database,Prod,Data,West Europe,529.04,,,81.7,,,1,96.2,0
+2026-01,Azure,RES-00115,Load Balancer,Prod,Platform,East US,138.65,,,93.8,,430.0,0,,0
+2026-01,Azure,RES-00116,Virtual Machines,Prod,Platform,East US,311.59,50.7,66.7,52.4,,,1,50.3,0
+2026-01,AWS,RES-00117,RDS,UAT,Security,eu-west-2,421.84,,,31.5,,,1,56.7,0
+2026-01,AWS,RES-00118,EC2,Prod,Security,eu-west-2,136.37,43.8,34.6,97.4,,,1,58.5,0
+2026-01,AWS,RES-00119,Load Balancer,Prod,Platform,eu-west-1,85.29,,,94.5,,13714.0,1,,0
+2026-01,AWS,RES-00120,RDS,Prod,Data,eu-west-2,398.15,,,74.0,,,0,8.3,0
+2026-02,Azure,RES-00121,SQL Database,Prod,Security,UK South,439.11,,,40.7,,,1,93.7,0
+2026-02,AWS,RES-00122,EC2,Dev,Platform,eu-west-2,72.64,40.6,50.1,72.0,,,1,43.1,0
+2026-02,AWS,RES-00123,S3,Prod,Data,us-east-1,33.93,,,37.5,16.7,1309.0,1,,0
+2026-02,AWS,RES-00124,NAT Gateway,Prod,Platform,us-east-1,184.53,,,74.5,,,1,,0
+2026-02,Azure,RES-00125,SQL Database,Prod,Data,UK South,184.13,,,58.2,,,1,84.1,0
+2026-02,AWS,RES-00126,NAT Gateway,UAT,Applications,us-east-1,324.71,,,99.7,,,1,,1
+2026-02,AWS,RES-00127,EBS,UAT,Security,us-east-1,152.53,,,68.0,63.2,,1,,0
+2026-02,Azure,RES-00128,NAT Gateway,Prod,Cloud Ops,East US,130.64,,,63.2,,,1,,0
+2026-02,Azure,RES-00129,Load Balancer,Prod,Security,UK South,95.55,,,42.8,,768.0,1,,0
+2026-02,AWS,RES-00130,Load Balancer,UAT,Cloud Ops,us-east-1,45.81,,,65.4,,1270.0,1,,0
+2026-02,Azure,RES-00131,SQL Database,Prod,Cloud Ops,UK South,408.8,,,88.3,,,1,83.0,0
+2026-02,AWS,RES-00132,EC2,Prod,Data,eu-west-2,541.07,3.9,30.5,82.5,,,1,68.4,0
+2026-02,AWS,RES-00133,S3,Prod,Security,us-east-1,16.94,,,93.5,81.6,444.0,0,,0
+2026-02,Azure,RES-00134,Blob Storage,Prod,Applications,UK South,48.0,,,64.1,16.7,217.0,1,,0
+2026-02,Azure,RES-00135,Blob Storage,Prod,Platform,West Europe,30.26,,,44.6,17.6,506.0,0,,0
+2026-02,AWS,RES-00136,RDS,Prod,Applications,eu-west-1,244.72,,,73.6,,,1,18.6,0
+2026-02,AWS,RES-00137,EC2,Prod,Security,eu-west-2,179.71,28.2,36.7,69.5,,,1,61.3,0
+2026-02,Azure,RES-00138,SQL Database,Prod,Data,West Europe,481.39,,,74.3,,,1,52.7,0
+2026-02,AWS,RES-00139,EC2,Prod,Applications,eu-west-1,504.29,7.7,25.2,53.1,,,0,99.4,0
+2026-02,AWS,RES-00140,EC2,UAT,Data,eu-west-1,130.76,51.4,28.9,73.9,,,1,44.2,0
+2026-02,Azure,RES-00141,Blob Storage,Dev,Cloud Ops,West Europe,43.99,,,49.7,56.0,579.0,1,,0
+2026-02,AWS,RES-00142,NAT Gateway,Prod,Applications,eu-west-2,143.65,,,57.2,,,1,,0
+2026-02,AWS,RES-00143,EBS,Dev,Security,eu-west-1,43.14,,,97.1,26.1,,0,,0
+2026-02,Azure,RES-00144,Managed Disks,Prod,Platform,UK South,38.71,,,79.2,27.2,,1,,0
+2026-02,AWS,RES-00145,RDS,Prod,Security,us-east-1,721.16,,,42.7,,,1,57.9,1
+2026-02,Azure,RES-00146,NAT Gateway,Dev,Platform,UK South,118.75,,,30.7,,,1,,0
+2026-02,Azure,RES-00147,SQL Database,UAT,Security,UK South,513.21,,,55.5,,,1,5.4,0
+2026-02,AWS,RES-00148,EC2,Prod,Security,us-east-1,78.87,61.7,58.5,76.7,,,1,78.6,0
+2026-02,AWS,RES-00149,NAT Gateway,Dev,Data,eu-west-1,143.9,,,53.1,,,1,,0
+2026-02,AWS,RES-00150,EC2,Prod,Cloud Ops,eu-west-1,297.35,48.9,18.9,26.4,,,1,57.5,0
+2026-02,AWS,RES-00151,EC2,Dev,Cloud Ops,eu-west-1,298.48,37.4,55.5,37.2,,,1,84.0,0
+2026-02,Azure,RES-00152,SQL Database,Dev,Platform,UK South,363.49,,,37.7,,,1,34.8,0
+2026-02,Azure,RES-00153,Virtual Machines,Dev,Cloud Ops,East US,166.1,3.2,60.3,82.6,,,1,55.6,1
+2026-02,AWS,RES-00154,EC2,Prod,Applications,eu-west-1,161.54,5.4,13.1,17.0,,,0,69.8,0
+2026-02,AWS,RES-00155,EC2,Prod,Cloud Ops,eu-west-2,190.37,3.9,14.2,81.5,,,1,46.4,0
+2026-02,AWS,RES-00156,S3,UAT,Applications,eu-west-1,45.04,,,59.0,2.7,369.0,0,,0
+2026-02,AWS,RES-00157,RDS,Prod,Security,eu-west-1,199.98,,,65.0,,,1,55.5,0
+2026-02,Azure,RES-00158,SQL Database,Prod,Platform,West Europe,563.56,,,46.0,,,1,73.5,0
+2026-02,Azure,RES-00159,SQL Database,UAT,Applications,West Europe,1174.42,,,48.2,,,1,38.2,1
+2026-02,AWS,RES-00160,EBS,Dev,Cloud Ops,us-east-1,221.6,,,58.4,47.7,,1,,1
+2026-02,Azure,RES-00161,Load Balancer,Prod,Platform,West Europe,93.66,,,47.8,,714.0,1,,0
+2026-02,AWS,RES-00162,Load Balancer,UAT,Cloud Ops,eu-west-1,58.97,,,86.9,,4261.0,1,,0
+2026-02,AWS,RES-00163,EC2,Dev,Applications,us-east-1,286.77,61.4,21.8,87.7,,,1,28.3,0
+2026-02,AWS,RES-00164,EC2,Prod,Platform,eu-west-1,180.34,17.1,20.6,81.9,,,1,86.7,0
+2026-02,AWS,RES-00165,Load Balancer,Dev,Applications,eu-west-2,30.99,,,40.9,,1396.0,1,,0
+2026-02,Azure,RES-00166,Virtual Machines,Prod,Applications,UK South,1173.94,46.6,77.5,47.6,,,1,1.6,1
+2026-02,AWS,RES-00167,S3,Prod,Applications,us-east-1,93.77,,,52.5,40.7,2950.0,1,,0
+2026-02,AWS,RES-00168,Load Balancer,Dev,Security,eu-west-1,113.34,,,30.2,,595.0,0,,0
+2026-02,Azure,RES-00169,SQL Database,UAT,Security,UK South,304.05,,,63.1,,,1,90.0,0
+2026-02,Azure,RES-00170,Virtual Machines,Dev,Security,West Europe,283.25,38.3,11.2,91.8,,,1,80.2,1
+2026-02,AWS,RES-00171,EBS,Prod,Cloud Ops,eu-west-1,62.85,,,73.0,60.8,,1,,0
+2026-02,AWS,RES-00172,RDS,Dev,Platform,us-east-1,250.24,,,56.8,,,1,8.0,0
+2026-02,AWS,RES-00173,EC2,Prod,Data,eu-west-1,223.51,19.6,42.4,99.1,,,1,48.5,0
+2026-02,AWS,RES-00174,EC2,Dev,Cloud Ops,eu-west-1,308.25,28.5,41.0,23.4,,,1,85.3,0
+2026-02,Azure,RES-00175,NAT Gateway,Dev,Data,East US,73.6,,,64.6,,,1,,0
+2026-02,AWS,RES-00176,S3,Prod,Cloud Ops,us-east-1,41.43,,,47.1,68.3,4539.0,1,,0
+2026-02,AWS,RES-00177,NAT Gateway,Prod,Security,eu-west-2,183.22,,,41.5,,,0,,1
+2026-02,AWS,RES-00178,Load Balancer,Dev,Platform,eu-west-1,66.57,,,81.1,,777.0,1,,0
+2026-02,AWS,RES-00179,EBS,UAT,Platform,eu-west-1,41.07,,,60.5,10.6,,1,,0
+2026-02,AWS,RES-00180,NAT Gateway,Prod,Security,eu-west-2,115.23,,,72.3,,,1,,0
+2026-02,AWS,RES-00181,S3,Prod,Platform,eu-west-2,21.57,,,64.6,18.0,4341.0,0,,0
+2026-02,Azure,RES-00182,SQL Database,Dev,Platform,West Europe,423.27,,,63.6,,,1,42.6,0
+2026-02,AWS,RES-00183,EC2,Prod,Data,us-east-1,192.39,2.7,6.3,87.8,,,0,34.3,0
+2026-02,AWS,RES-00184,EBS,Prod,Platform,us-east-1,189.03,,,31.8,5.9,,1,,0
+2026-02,AWS,RES-00185,EC2,Prod,Cloud Ops,eu-west-2,286.15,21.1,36.2,80.4,,,0,45.4,0
+2026-02,AWS,RES-00186,EC2,Prod,Security,us-east-1,187.29,15.4,21.3,67.4,,,1,68.1,0
+2026-02,Azure,RES-00187,Virtual Machines,Dev,Cloud Ops,West Europe,136.24,33.9,27.3,70.0,,,0,45.3,0
+2026-02,Azure,RES-00188,Blob Storage,Prod,Cloud Ops,West Europe,75.57,,,64.3,73.6,645.0,1,,0
+2026-02,AWS,RES-00189,EC2,Prod,Cloud Ops,eu-west-1,137.25,70.9,47.2,91.9,,,1,5.8,0
+2026-02,AWS,RES-00190,NAT Gateway,Prod,Data,us-east-1,62.88,,,88.7,,,1,,0
+2026-02,AWS,RES-00191,EC2,Prod,Cloud Ops,eu-west-1,120.53,42.8,66.3,76.7,,,1,99.4,0
+2026-02,Azure,RES-00192,Managed Disks,Prod,Security,UK South,56.78,,,56.0,37.9,,0,,0
+2026-02,Azure,RES-00193,Virtual Machines,Dev,Cloud Ops,West Europe,135.09,27.9,26.5,54.0,,,1,76.1,0
+2026-02,AWS,RES-00194,S3,Prod,Platform,us-east-1,64.56,,,44.6,31.6,685.0,1,,0
+2026-02,Azure,RES-00195,Virtual Machines,Prod,Data,East US,297.18,1.1,17.5,93.9,,,1,40.7,0
+2026-02,Azure,RES-00196,Managed Disks,Prod,Data,East US,80.28,,,74.7,15.4,,1,,0
+2026-02,AWS,RES-00197,EC2,Prod,Cloud Ops,eu-west-2,253.46,30.6,46.4,48.6,,,1,45.8,0
+2026-02,Azure,RES-00198,SQL Database,Prod,Data,West Europe,293.43,,,60.1,,,1,13.7,0
+2026-02,Azure,RES-00199,Virtual Machines,Prod,Applications,UK South,284.72,11.5,13.7,78.3,,,1,70.8,0
+2026-02,AWS,RES-00200,RDS,Dev,Cloud Ops,us-east-1,402.0,,,40.0,,,1,9.8,0
+2026-02,AWS,RES-00201,EC2,Dev,Platform,eu-west-1,151.76,62.8,28.3,91.5,,,1,33.0,0
+2026-02,Azure,RES-00202,Managed Disks,Prod,Cloud Ops,West Europe,62.41,,,35.8,39.1,,1,,0
+2026-02,AWS,RES-00203,EC2,Prod,Security,eu-west-2,209.94,1.9,18.6,86.3,,,1,24.6,0
+2026-02,Azure,RES-00204,Blob Storage,Prod,Platform,West Europe,100.29,,,35.7,15.0,513.0,1,,0
+2026-02,AWS,RES-00205,EC2,UAT,Data,eu-west-1,451.37,70.6,13.8,71.1,,,1,49.0,0
+2026-02,Azure,RES-00206,SQL Database,UAT,Security,East US,314.47,,,41.3,,,1,75.7,0
+2026-02,Azure,RES-00207,SQL Database,UAT,Applications,East US,657.59,,,73.2,,,1,28.4,0
+2026-02,Azure,RES-00208,Virtual Machines,Prod,Applications,West Europe,219.28,6.4,9.3,94.5,,,1,28.4,0
+2026-02,Azure,RES-00209,Virtual Machines,Dev,Security,West Europe,129.44,13.7,44.0,75.4,,,1,44.4,0
+2026-02,AWS,RES-00210,EC2,Prod,Security,eu-west-1,216.1,10.9,31.9,34.9,,,1,39.2,0
+2026-02,AWS,RES-00211,Load Balancer,Prod,Platform,eu-west-2,62.75,,,48.0,,354.0,1,,0
+2026-02,Azure,RES-00212,Virtual Machines,UAT,Cloud Ops,West Europe,158.86,27.7,7.8,76.5,,,1,89.8,0
+2026-02,AWS,RES-00213,EC2,Prod,Cloud Ops,us-east-1,138.69,5.1,20.0,76.4,,,1,45.1,0
+2026-02,AWS,RES-00214,S3,Prod,Security,eu-west-1,145.7,,,45.5,67.7,126.0,1,,0
+2026-02,AWS,RES-00215,EC2,UAT,Platform,us-east-1,210.31,26.6,60.4,45.8,,,1,24.2,0
+2026-02,AWS,RES-00216,EC2,Prod,Security,us-east-1,168.33,25.2,39.8,89.8,,,0,78.7,0
+2026-02,AWS,RES-00217,EC2,Dev,Platform,us-east-1,122.94,2.6,0.9,58.0,,,1,4.1,0
+2026-02,Azure,RES-00218,Blob Storage,Prod,Data,East US,39.54,,,88.6,54.8,3089.0,1,,0
+2026-02,AWS,RES-00219,EC2,Dev,Cloud Ops,eu-west-1,174.06,9.4,35.9,39.4,,,1,51.4,0
+2026-02,AWS,RES-00220,S3,Prod,Platform,eu-west-1,39.8,,,67.7,52.4,1859.0,1,,0
+2026-02,AWS,RES-00221,RDS,Prod,Applications,us-east-1,157.91,,,94.1,,,1,39.1,0
+2026-02,AWS,RES-00222,EC2,Dev,Data,eu-west-1,285.25,80.6,15.1,28.9,,,1,97.0,0
+2026-02,AWS,RES-00223,RDS,Prod,Cloud Ops,eu-west-2,269.14,,,85.1,,,1,26.7,0
+2026-02,AWS,RES-00224,EBS,Dev,Platform,us-east-1,68.49,,,45.4,8.3,,1,,0
+2026-02,Azure,RES-00225,Virtual Machines,Prod,Data,East US,332.74,40.5,35.9,39.7,,,1,45.6,0
+2026-02,Azure,RES-00226,Virtual Machines,Prod,Data,UK South,332.87,17.2,22.4,75.2,,,1,7.3,0
+2026-02,Azure,RES-00227,Virtual Machines,Prod,Cloud Ops,West Europe,268.21,35.1,46.1,57.7,,,1,12.3,0
+2026-02,AWS,RES-00228,EC2,UAT,Data,eu-west-1,153.51,6.5,5.8,93.5,,,0,52.9,0
+2026-02,AWS,RES-00229,RDS,Prod,Platform,eu-west-2,208.39,,,43.9,,,1,8.5,0
+2026-02,Azure,RES-00230,Blob Storage,Dev,Applications,West Europe,32.3,,,94.6,34.0,1263.0,1,,0
+2026-02,AWS,RES-00231,EBS,UAT,Applications,eu-west-1,50.04,,,73.3,49.2,,1,,0
+2026-02,AWS,RES-00232,EC2,Prod,Security,eu-west-1,216.22,47.8,56.6,95.3,,,0,11.8,0
+2026-02,Azure,RES-00233,Managed Disks,Prod,Data,UK South,48.34,,,88.5,67.9,,1,,0
+2026-02,AWS,RES-00234,S3,Prod,Applications,eu-west-1,107.46,,,91.7,50.6,3992.0,1,,0
+2026-02,Azure,RES-00235,SQL Database,UAT,Security,UK South,382.07,,,64.6,,,1,95.6,0
+2026-02,AWS,RES-00236,S3,UAT,Data,us-east-1,45.85,,,77.1,53.7,588.0,1,,0
+2026-02,AWS,RES-00237,NAT Gateway,UAT,Platform,eu-west-2,81.55,,,64.3,,,1,,0
+2026-02,Azure,RES-00238,SQL Database,Prod,Cloud Ops,UK South,537.45,,,63.2,,,1,62.2,0
+2026-02,AWS,RES-00239,Load Balancer,Dev,Security,eu-west-1,95.05,,,51.7,,1752.0,1,,1
+2026-02,AWS,RES-00240,RDS,Prod,Platform,eu-west-2,349.06,,,59.6,,,1,56.1,0
+2026-03,Azure,RES-00241,NAT Gateway,Prod,Applications,East US,157.89,,,66.2,,,1,,0
+2026-03,Azure,RES-00242,NAT Gateway,Prod,Applications,West Europe,276.28,,,76.9,,,1,,0
+2026-03,AWS,RES-00243,EC2,Prod,Security,eu-west-2,112.43,12.6,74.2,23.9,,,1,3.0,0
+2026-03,AWS,RES-00244,Load Balancer,Prod,Cloud Ops,eu-west-1,43.14,,,53.2,,968.0,0,,0
+2026-03,AWS,RES-00245,RDS,Prod,Data,us-east-1,711.59,,,64.5,,,1,77.0,0
+2026-03,AWS,RES-00246,S3,Prod,Data,eu-west-2,41.51,,,73.2,4.7,498.0,1,,0
+2026-03,Azure,RES-00247,Blob Storage,Prod,Cloud Ops,UK South,74.73,,,50.1,22.4,468.0,1,,0
+2026-03,Azure,RES-00248,Blob Storage,Dev,Applications,UK South,27.69,,,41.6,23.5,1442.0,1,,0
+2026-03,Azure,RES-00249,Virtual Machines,Dev,Data,UK South,429.32,55.4,90.2,93.1,,,1,64.8,0
+2026-03,Azure,RES-00250,Virtual Machines,Dev,Security,West Europe,125.7,69.6,75.8,38.9,,,1,69.7,0
+2026-03,AWS,RES-00251,EC2,Dev,Cloud Ops,us-east-1,483.71,28.1,15.7,31.5,,,1,47.2,0
+2026-03,Azure,RES-00252,Virtual Machines,Prod,Cloud Ops,UK South,322.78,46.6,29.8,55.9,,,0,1.1,0
+2026-03,Azure,RES-00253,Blob Storage,Prod,Applications,West Europe,20.46,,,83.2,61.2,276.0,1,,0
+2026-03,AWS,RES-00254,NAT Gateway,Prod,Security,eu-west-1,139.28,,,57.7,,,0,,0
+2026-03,AWS,RES-00255,EC2,UAT,Security,eu-west-1,339.76,12.4,82.1,36.1,,,1,57.5,0
+2026-03,Azure,RES-00256,NAT Gateway,Prod,Applications,UK South,83.55,,,95.6,,,1,,0
+2026-03,Azure,RES-00257,Load Balancer,Dev,Data,East US,136.75,,,35.2,,700.0,1,,0
+2026-03,AWS,RES-00258,NAT Gateway,Prod,Data,eu-west-1,121.37,,,58.0,,,1,,0
+2026-03,Azure,RES-00259,Virtual Machines,Prod,Platform,West Europe,253.25,5.5,19.6,76.9,,,1,93.2,0
+2026-03,Azure,RES-00260,SQL Database,Dev,Platform,East US,284.85,,,82.7,,,1,73.3,0
+2026-03,AWS,RES-00261,EC2,Prod,Security,eu-west-2,288.06,4.2,6.7,91.6,,,1,68.9,0
+2026-03,Azure,RES-00262,Blob Storage,Dev,Cloud Ops,East US,40.7,,,87.1,23.7,1428.0,0,,0
+2026-03,Azure,RES-00263,SQL Database,Dev,Platform,West Europe,385.06,,,90.1,,,0,5.5,0
+2026-03,AWS,RES-00264,EBS,Prod,Platform,eu-west-2,116.53,,,49.2,42.7,,1,,0
+2026-03,AWS,RES-00265,EC2,Dev,Applications,us-east-1,237.55,55.5,50.7,48.3,,,0,10.1,0
+2026-03,AWS,RES-00266,S3,Dev,Data,eu-west-1,66.92,,,72.4,32.8,269.0,1,,0
+2026-03,AWS,RES-00267,EC2,UAT,Platform,us-east-1,118.29,12.4,30.6,66.3,,,0,51.7,0
+2026-03,AWS,RES-00268,RDS,Prod,Security,eu-west-2,343.25,,,94.0,,,1,83.4,0
+2026-03,AWS,RES-00269,EC2,Prod,Applications,eu-west-2,320.13,13.2,43.4,94.4,,,0,66.9,0
+2026-03,AWS,RES-00270,RDS,Prod,Platform,eu-west-2,199.02,,,61.9,,,1,56.1,0
+2026-03,AWS,RES-00271,NAT Gateway,Prod,Data,eu-west-2,107.64,,,66.2,,,1,,0
+2026-03,AWS,RES-00272,EC2,Prod,Data,eu-west-2,203.42,25.1,30.9,47.2,,,1,55.3,0
+2026-03,Azure,RES-00273,Virtual Machines,Dev,Cloud Ops,East US,373.39,5.8,69.9,47.0,,,1,91.3,0
+2026-03,Azure,RES-00274,Virtual Machines,Prod,Data,West Europe,253.41,16.0,32.3,18.4,,,1,58.7,0
+2026-03,Azure,RES-00275,Load Balancer,Dev,Security,UK South,78.38,,,42.1,,1930.0,1,,0
+2026-03,AWS,RES-00276,EC2,Dev,Applications,us-east-1,146.37,22.1,67.0,80.4,,,0,43.7,0
+2026-03,Azure,RES-00277,NAT Gateway,Prod,Platform,UK South,146.55,,,80.7,,,1,,0
+2026-03,AWS,RES-00278,S3,Dev,Security,eu-west-1,45.69,,,64.1,75.2,204.0,1,,0
+2026-03,AWS,RES-00279,EC2,Prod,Platform,eu-west-1,433.58,12.4,48.0,56.4,,,1,65.4,0
+2026-03,Azure,RES-00280,Virtual Machines,Prod,Cloud Ops,UK South,151.24,9.3,50.3,93.6,,,1,7.9,0
+2026-03,AWS,RES-00281,EC2,Dev,Data,eu-west-1,168.83,44.1,53.5,84.8,,,1,6.7,0
+2026-03,Azure,RES-00282,Load Balancer,Prod,Data,UK South,134.35,,,64.7,,285.0,1,,0
+2026-03,Azure,RES-00283,Virtual Machines,Prod,Data,West Europe,435.33,14.1,47.8,67.1,,,1,91.2,0
+2026-03,AWS,RES-00284,EC2,Prod,Data,us-east-1,283.56,3.1,11.7,99.5,,,0,58.2,0
+2026-03,AWS,RES-00285,Load Balancer,UAT,Applications,eu-west-2,123.92,,,90.7,,92.0,1,,0
+2026-03,Azure,RES-00286,SQL Database,Prod,Security,West Europe,188.77,,,32.6,,,1,70.6,0
+2026-03,Azure,RES-00287,Load Balancer,Dev,Security,West Europe,81.55,,,52.6,,1827.0,1,,0
+2026-03,Azure,RES-00288,Load Balancer,Prod,Security,UK South,39.14,,,66.2,,2363.0,1,,0
+2026-03,AWS,RES-00289,S3,Prod,Applications,eu-west-1,26.12,,,84.1,65.3,394.0,1,,0
+2026-03,AWS,RES-00290,RDS,UAT,Applications,eu-west-1,248.63,,,49.0,,,1,59.3,0
+2026-03,Azure,RES-00291,Virtual Machines,Dev,Security,UK South,473.95,62.9,25.1,58.6,,,1,85.6,0
+2026-03,AWS,RES-00292,EBS,Dev,Platform,us-east-1,83.13,,,45.9,42.3,,1,,0
+2026-03,Azure,RES-00293,Managed Disks,Prod,Data,West Europe,116.03,,,82.5,31.1,,1,,0
+2026-03,AWS,RES-00294,EC2,Prod,Applications,eu-west-1,140.91,6.3,7.2,79.0,,,1,7.0,0
+2026-03,Azure,RES-00295,Virtual Machines,Dev,Cloud Ops,East US,191.42,41.3,26.3,53.6,,,1,41.2,0
+2026-03,AWS,RES-00296,EBS,Prod,Data,us-east-1,76.7,,,42.0,35.1,,1,,0
+2026-03,Azure,RES-00297,SQL Database,Prod,Data,UK South,256.05,,,84.6,,,0,9.6,0
+2026-03,AWS,RES-00298,EC2,Dev,Cloud Ops,eu-west-1,318.78,36.6,25.3,38.9,,,1,73.9,0
+2026-03,Azure,RES-00299,Managed Disks,Prod,Cloud Ops,East US,145.49,,,83.9,44.3,,1,,0
+2026-03,AWS,RES-00300,Load Balancer,Prod,Security,eu-west-1,120.43,,,71.8,,1263.0,0,,0
+2026-03,AWS,RES-00301,Load Balancer,UAT,Platform,eu-west-2,48.79,,,52.9,,645.0,1,,0
+2026-03,AWS,RES-00302,EC2,Dev,Security,eu-west-2,315.89,20.7,12.8,57.9,,,1,97.5,0
+2026-03,AWS,RES-00303,EC2,UAT,Data,eu-west-2,167.99,14.6,27.4,82.4,,,0,69.6,0
+2026-03,AWS,RES-00304,EBS,Prod,Cloud Ops,eu-west-2,96.97,,,37.1,22.3,,0,,0
+2026-03,AWS,RES-00305,S3,Prod,Cloud Ops,eu-west-1,54.3,,,70.6,27.4,1370.0,1,,0
+2026-03,Azure,RES-00306,Virtual Machines,Prod,Cloud Ops,UK South,308.22,23.2,44.7,22.4,,,1,10.1,0
+2026-03,Azure,RES-00307,SQL Database,Prod,Cloud Ops,UK South,156.28,,,64.6,,,1,27.9,0
+2026-03,AWS,RES-00308,EC2,Prod,Applications,us-east-1,286.63,19.0,27.8,31.6,,,1,32.6,0
+2026-03,Azure,RES-00309,Managed Disks,Prod,Data,East US,141.2,,,62.2,22.6,,1,,0
+2026-03,AWS,RES-00310,EC2,Prod,Applications,us-east-1,179.27,42.4,56.3,17.8,,,1,0.3,0
+2026-03,Azure,RES-00311,Virtual Machines,Prod,Cloud Ops,East US,267.37,32.3,7.7,60.2,,,1,10.3,0
+2026-03,Azure,RES-00312,SQL Database,Prod,Applications,West Europe,168.9,,,53.6,,,1,41.9,0
+2026-03,AWS,RES-00313,EC2,Dev,Applications,us-east-1,172.02,37.8,6.3,29.2,,,1,87.4,0
+2026-03,AWS,RES-00314,S3,Prod,Cloud Ops,us-east-1,101.14,,,99.9,25.7,1219.0,0,,0
+2026-03,AWS,RES-00315,EC2,Prod,Data,eu-west-2,297.5,12.2,33.4,81.0,,,1,79.7,0
+2026-03,Azure,RES-00316,Blob Storage,Prod,Data,West Europe,47.89,,,64.7,85.8,1338.0,1,,0
+2026-03,AWS,RES-00317,EC2,Prod,Platform,eu-west-2,178.34,32.0,13.5,69.9,,,1,84.2,0
+2026-03,AWS,RES-00318,EC2,Dev,Platform,eu-west-1,321.53,10.4,39.7,88.0,,,1,100.0,0
+2026-03,AWS,RES-00319,Load Balancer,Dev,Data,eu-west-1,41.05,,,67.3,,1676.0,0,,0
+2026-03,AWS,RES-00320,EC2,Dev,Security,us-east-1,255.34,8.1,7.8,76.1,,,1,35.4,0
+2026-03,Azure,RES-00321,Load Balancer,UAT,Security,UK South,83.0,,,54.4,,3127.0,1,,0
+2026-03,Azure,RES-00322,Load Balancer,UAT,Cloud Ops,UK South,103.98,,,40.4,,2624.0,1,,0
+2026-03,Azure,RES-00323,Managed Disks,Dev,Security,East US,53.3,,,80.6,32.7,,1,,0
+2026-03,AWS,RES-00324,EBS,Prod,Cloud Ops,eu-west-2,80.73,,,73.7,36.9,,1,,0
+2026-03,AWS,RES-00325,NAT Gateway,Prod,Cloud Ops,us-east-1,81.93,,,96.0,,,1,,0
+2026-03,Azure,RES-00326,Virtual Machines,Prod,Security,UK South,292.61,18.7,37.9,81.7,,,1,92.3,1
+2026-03,AWS,RES-00327,EC2,Dev,Platform,us-east-1,151.46,38.2,56.2,54.7,,,1,61.5,0
+2026-03,Azure,RES-00328,Virtual Machines,Dev,Security,West Europe,272.83,40.0,47.5,96.0,,,1,82.4,0
+2026-03,AWS,RES-00329,RDS,Prod,Cloud Ops,us-east-1,430.5,,,48.4,,,1,93.5,0
+2026-03,AWS,RES-00330,EC2,Dev,Applications,eu-west-2,270.38,14.2,68.9,48.1,,,1,11.4,0
+2026-03,AWS,RES-00331,NAT Gateway,UAT,Data,eu-west-2,65.03,,,42.9,,,1,,0
+2026-03,AWS,RES-00332,RDS,UAT,Security,eu-west-1,490.07,,,46.6,,,1,63.1,0
+2026-03,AWS,RES-00333,EC2,UAT,Security,eu-west-2,202.38,42.0,17.3,66.1,,,1,3.7,0
+2026-03,AWS,RES-00334,EBS,Prod,Data,us-east-1,88.46,,,45.4,26.8,,1,,0
+2026-03,Azure,RES-00335,SQL Database,Dev,Data,West Europe,350.12,,,48.2,,,1,44.3,0
+2026-03,Azure,RES-00336,NAT Gateway,Prod,Applications,UK South,212.05,,,75.0,,,1,,0
+2026-03,AWS,RES-00337,EC2,Dev,Security,eu-west-1,335.19,16.9,59.9,36.1,,,1,91.7,0
+2026-03,AWS,RES-00338,Load Balancer,Prod,Applications,eu-west-2,99.02,,,77.4,,620.0,1,,0
+2026-03,Azure,RES-00339,SQL Database,Prod,Security,UK South,242.23,,,56.0,,,1,40.6,0
+2026-03,Azure,RES-00340,Managed Disks,Prod,Cloud Ops,UK South,89.37,,,96.6,38.4,,1,,0
+2026-03,AWS,RES-00341,EC2,Dev,Cloud Ops,us-east-1,168.31,20.9,31.7,72.2,,,1,16.1,0
+2026-03,AWS,RES-00342,RDS,Prod,Cloud Ops,eu-west-1,172.38,,,57.4,,,1,46.0,0
+2026-03,Azure,RES-00343,Virtual Machines,Prod,Cloud Ops,East US,405.8,43.9,64.2,78.8,,,0,44.6,0
+2026-03,Azure,RES-00344,Blob Storage,Prod,Platform,UK South,54.8,,,46.3,12.6,1112.0,1,,0
+2026-03,Azure,RES-00345,SQL Database,UAT,Data,West Europe,180.37,,,92.7,,,1,38.9,0
+2026-03,Azure,RES-00346,Virtual Machines,Dev,Applications,UK South,238.83,15.7,38.7,64.5,,,1,96.0,0
+2026-03,Azure,RES-00347,Managed Disks,Dev,Applications,West Europe,109.38,,,80.2,83.2,,1,,1
+2026-03,AWS,RES-00348,NAT Gateway,Prod,Platform,eu-west-1,86.16,,,78.0,,,0,,1
+2026-03,Azure,RES-00349,Managed Disks,Prod,Security,UK South,80.42,,,75.6,38.4,,1,,0
+2026-03,AWS,RES-00350,EBS,Dev,Platform,us-east-1,80.01,,,64.8,19.9,,1,,0
+2026-03,Azure,RES-00351,Managed Disks,Prod,Data,UK South,79.15,,,64.2,37.8,,1,,0
+2026-03,AWS,RES-00352,EC2,Dev,Security,us-east-1,303.04,2.8,91.6,43.1,,,1,18.7,0
+2026-03,AWS,RES-00353,EBS,UAT,Security,us-east-1,66.75,,,46.9,33.1,,1,,0
+2026-03,Azure,RES-00354,Load Balancer,Prod,Applications,East US,176.47,,,35.8,,2008.0,1,,0
+2026-03,AWS,RES-00355,EC2,UAT,Applications,eu-west-2,211.8,1.2,32.4,38.2,,,0,1.3,0
+2026-03,AWS,RES-00356,EC2,Prod,Data,eu-west-1,371.09,6.3,14.0,96.2,,,1,66.4,1
+2026-03,Azure,RES-00357,SQL Database,Dev,Applications,West Europe,199.07,,,77.0,,,1,48.7,0
+2026-03,AWS,RES-00358,NAT Gateway,Prod,Data,eu-west-1,136.82,,,84.1,,,1,,0
+2026-03,AWS,RES-00359,RDS,Dev,Cloud Ops,us-east-1,143.02,,,94.5,,,1,62.1,0
+2026-03,AWS,RES-00360,S3,Dev,Platform,us-east-1,28.69,,,54.9,77.3,5767.0,1,,0
+2026-04,AWS,RES-00361,EC2,Dev,Applications,eu-west-2,145.91,29.8,38.4,54.1,,,1,38.5,0
+2026-04,AWS,RES-00362,EC2,Prod,Data,us-east-1,150.91,16.8,18.0,19.3,,,0,34.0,0
+2026-04,AWS,RES-00363,EC2,Dev,Cloud Ops,us-east-1,141.87,14.0,42.8,19.4,,,1,83.8,0
+2026-04,AWS,RES-00364,EC2,Prod,Security,us-east-1,196.42,38.7,19.7,45.8,,,1,13.3,0
+2026-04,Azure,RES-00365,Virtual Machines,Prod,Cloud Ops,West Europe,274.97,21.8,26.5,42.2,,,1,50.3,1
+2026-04,Azure,RES-00366,Virtual Machines,Prod,Security,East US,100.19,33.3,37.7,28.6,,,0,9.5,0
+2026-04,Azure,RES-00367,Managed Disks,Prod,Data,East US,43.59,,,96.4,42.9,,1,,0
+2026-04,Azure,RES-00368,Load Balancer,Prod,Applications,East US,155.5,,,71.9,,203.0,1,,0
+2026-04,AWS,RES-00369,Load Balancer,UAT,Platform,eu-west-1,79.94,,,56.3,,233.0,1,,0
+2026-04,Azure,RES-00370,Virtual Machines,Dev,Platform,West Europe,162.57,32.7,59.2,81.4,,,1,60.9,0
+2026-04,Azure,RES-00371,Load Balancer,UAT,Applications,UK South,65.41,,,71.4,,765.0,1,,0
+2026-04,AWS,RES-00372,Load Balancer,Prod,Data,us-east-1,105.25,,,69.8,,2764.0,1,,0
+2026-04,AWS,RES-00373,NAT Gateway,Prod,Security,eu-west-1,132.28,,,91.1,,,0,,0
+2026-04,AWS,RES-00374,NAT Gateway,Dev,Cloud Ops,eu-west-2,188.86,,,59.2,,,0,,0
+2026-04,Azure,RES-00375,Virtual Machines,Dev,Platform,UK South,163.07,18.1,73.0,22.5,,,1,41.4,0
+2026-04,AWS,RES-00376,RDS,Dev,Data,eu-west-2,436.47,,,69.2,,,1,9.2,0
+2026-04,AWS,RES-00377,Load Balancer,Prod,Platform,eu-west-2,37.93,,,66.5,,3474.0,1,,0
+2026-04,Azure,RES-00378,Virtual Machines,Prod,Security,East US,124.05,37.4,41.6,91.8,,,1,34.7,0
+2026-04,Azure,RES-00379,Load Balancer,UAT,Security,UK South,37.29,,,71.1,,448.0,1,,0
+2026-04,AWS,RES-00380,EBS,UAT,Security,eu-west-2,42.81,,,51.0,75.6,,1,,0
+2026-04,AWS,RES-00381,S3,Prod,Applications,eu-west-2,76.74,,,56.8,56.0,1594.0,1,,0
+2026-04,Azure,RES-00382,Virtual Machines,Prod,Security,East US,356.35,19.4,30.4,28.4,,,0,24.8,0
+2026-04,AWS,RES-00383,EC2,Prod,Data,us-east-1,301.92,13.1,57.4,69.4,,,1,47.0,0
+2026-04,AWS,RES-00384,EC2,UAT,Platform,eu-west-1,335.7,1.4,24.9,29.1,,,1,20.2,0
+2026-04,AWS,RES-00385,Load Balancer,Prod,Cloud Ops,us-east-1,56.99,,,47.0,,1665.0,1,,0
+2026-04,Azure,RES-00386,Virtual Machines,Prod,Data,UK South,278.49,22.9,58.1,47.9,,,0,65.6,0
+2026-04,AWS,RES-00387,EC2,Prod,Cloud Ops,eu-west-2,244.43,6.3,9.8,57.7,,,1,89.2,0
+2026-04,AWS,RES-00388,EC2,Prod,Platform,eu-west-2,183.09,1.8,14.3,92.2,,,1,93.9,0
+2026-04,Azure,RES-00389,Managed Disks,Prod,Data,West Europe,227.75,,,71.9,59.0,,1,,1
+2026-04,AWS,RES-00390,EBS,Prod,Platform,eu-west-2,62.8,,,34.6,22.4,,0,,0
+2026-04,Azure,RES-00391,NAT Gateway,Prod,Data,UK South,93.44,,,50.4,,,1,,0
+2026-04,Azure,RES-00392,Virtual Machines,UAT,Platform,East US,219.02,2.5,34.5,70.0,,,1,26.2,0
+2026-04,Azure,RES-00393,Virtual Machines,Dev,Platform,West Europe,145.3,2.1,9.8,95.4,,,1,44.4,0
+2026-04,Azure,RES-00394,NAT Gateway,Prod,Security,UK South,152.89,,,66.8,,,0,,0
+2026-04,AWS,RES-00395,RDS,Prod,Data,eu-west-1,347.75,,,74.6,,,1,33.9,0
+2026-04,AWS,RES-00396,EC2,Dev,Applications,us-east-1,329.93,21.7,17.9,74.9,,,0,48.2,0
+2026-04,AWS,RES-00397,NAT Gateway,Dev,Applications,eu-west-1,214.28,,,58.3,,,1,,0
+2026-04,AWS,RES-00398,NAT Gateway,Prod,Data,eu-west-1,63.43,,,62.5,,,1,,0
+2026-04,AWS,RES-00399,EC2,UAT,Data,us-east-1,774.74,27.4,53.9,96.7,,,1,73.1,0
+2026-04,Azure,RES-00400,Virtual Machines,Dev,Data,West Europe,304.26,1.5,25.1,71.7,,,1,35.8,0
+2026-04,AWS,RES-00401,Load Balancer,UAT,Platform,eu-west-2,70.85,,,38.8,,8152.0,1,,0
+2026-04,Azure,RES-00402,Managed Disks,Prod,Cloud Ops,East US,36.61,,,38.5,76.6,,1,,0
+2026-04,Azure,RES-00403,SQL Database,Prod,Applications,West Europe,354.34,,,69.7,,,1,98.3,0
+2026-04,Azure,RES-00404,Virtual Machines,Prod,Cloud Ops,UK South,565.11,40.4,19.4,38.7,,,1,8.3,1
+2026-04,AWS,RES-00405,NAT Gateway,Prod,Data,eu-west-2,266.52,,,67.9,,,1,,0
+2026-04,Azure,RES-00406,Virtual Machines,Prod,Applications,East US,497.39,2.3,14.9,88.1,,,1,5.5,1
+2026-04,AWS,RES-00407,EC2,Prod,Security,eu-west-1,111.6,45.1,24.6,55.9,,,1,18.8,0
+2026-04,AWS,RES-00408,RDS,UAT,Security,eu-west-2,626.64,,,95.3,,,1,94.3,0
+2026-04,Azure,RES-00409,Virtual Machines,Dev,Security,West Europe,304.62,3.6,40.5,17.8,,,0,94.4,0
+2026-04,Azure,RES-00410,SQL Database,Prod,Applications,East US,266.33,,,86.0,,,1,22.3,1
+2026-04,Azure,RES-00411,Managed Disks,Prod,Data,West Europe,161.01,,,59.7,21.0,,1,,0
+2026-04,AWS,RES-00412,EBS,Prod,Data,eu-west-2,201.29,,,41.9,57.3,,1,,0
+2026-04,AWS,RES-00413,EC2,Prod,Data,eu-west-2,204.22,52.1,65.9,18.5,,,1,58.4,0
+2026-04,AWS,RES-00414,Load Balancer,Prod,Security,eu-west-2,95.56,,,74.3,,1021.0,1,,0
+2026-04,Azure,RES-00415,Load Balancer,Dev,Data,West Europe,109.95,,,88.7,,1677.0,1,,0
+2026-04,Azure,RES-00416,Blob Storage,UAT,Platform,West Europe,48.62,,,87.5,33.0,3340.0,1,,1
+2026-04,AWS,RES-00417,EC2,Prod,Security,eu-west-1,179.06,8.0,14.6,80.3,,,0,8.2,0
+2026-04,AWS,RES-00418,EC2,Prod,Security,eu-west-1,202.52,22.6,37.1,35.4,,,1,78.9,0
+2026-04,Azure,RES-00419,SQL Database,Dev,Data,West Europe,711.99,,,54.2,,,1,37.0,0
+2026-04,AWS,RES-00420,EBS,Prod,Data,us-east-1,75.27,,,32.1,42.3,,1,,0
+2026-04,Azure,RES-00421,Virtual Machines,Dev,Platform,West Europe,265.54,2.0,9.6,97.8,,,1,59.0,0
+2026-04,AWS,RES-00422,EC2,Prod,Security,eu-west-2,126.03,46.3,59.5,52.9,,,0,78.4,0
+2026-04,AWS,RES-00423,EC2,Prod,Applications,eu-west-2,240.54,30.7,36.4,85.4,,,1,97.5,0
+2026-04,AWS,RES-00424,RDS,UAT,Applications,eu-west-1,439.57,,,64.2,,,1,76.6,0
+2026-04,AWS,RES-00425,EC2,Prod,Cloud Ops,eu-west-1,300.58,63.5,34.8,23.7,,,1,83.8,0
+2026-04,AWS,RES-00426,NAT Gateway,Prod,Applications,eu-west-2,372.97,,,39.7,,,1,,0
+2026-04,AWS,RES-00427,EC2,Dev,Data,eu-west-2,122.66,14.1,36.5,47.1,,,1,88.4,0
+2026-04,AWS,RES-00428,EBS,Dev,Applications,eu-west-1,51.78,,,66.2,44.8,,1,,0
+2026-04,Azure,RES-00429,SQL Database,Prod,Security,UK South,277.91,,,39.2,,,1,11.3,0
+2026-04,AWS,RES-00430,Load Balancer,Prod,Security,us-east-1,154.52,,,67.0,,288.0,1,,0
+2026-04,Azure,RES-00431,Virtual Machines,Prod,Data,East US,536.29,24.8,9.5,48.5,,,0,24.5,0
+2026-04,AWS,RES-00432,EC2,Prod,Security,us-east-1,638.9,18.1,82.0,98.3,,,1,83.6,0
+2026-04,Azure,RES-00433,Blob Storage,UAT,Applications,West Europe,40.93,,,71.6,55.2,2604.0,1,,0
+2026-04,AWS,RES-00434,EC2,UAT,Applications,eu-west-1,487.25,13.0,41.2,61.5,,,1,96.3,0
+2026-04,Azure,RES-00435,NAT Gateway,UAT,Security,UK South,92.72,,,50.4,,,1,,0
+2026-04,Azure,RES-00436,Managed Disks,Prod,Platform,East US,73.41,,,62.2,30.8,,1,,0
+2026-04,Azure,RES-00437,Virtual Machines,Prod,Data,East US,201.32,5.0,14.6,89.7,,,1,59.1,0
+2026-04,AWS,RES-00438,Load Balancer,Prod,Security,eu-west-2,57.75,,,49.2,,1586.0,1,,0
+2026-04,AWS,RES-00439,Load Balancer,Prod,Cloud Ops,eu-west-2,184.74,,,41.8,,749.0,1,,0
+2026-04,Azure,RES-00440,Virtual Machines,Prod,Cloud Ops,East US,198.59,31.3,41.1,79.6,,,1,71.2,0
+2026-04,AWS,RES-00441,EC2,Dev,Platform,eu-west-1,137.24,7.0,5.8,61.6,,,1,4.9,0
+2026-04,Azure,RES-00442,Load Balancer,Prod,Data,West Europe,74.58,,,95.7,,1061.0,1,,0
+2026-04,Azure,RES-00443,Managed Disks,Dev,Security,East US,46.55,,,67.2,22.8,,1,,0
+2026-04,Azure,RES-00444,NAT Gateway,Prod,Cloud Ops,West Europe,118.37,,,49.3,,,1,,0
+2026-04,Azure,RES-00445,Load Balancer,Prod,Cloud Ops,East US,126.19,,,96.5,,801.0,1,,0
+2026-04,AWS,RES-00446,EBS,Dev,Data,us-east-1,58.85,,,66.4,48.4,,1,,0
+2026-04,Azure,RES-00447,NAT Gateway,Dev,Security,West Europe,255.34,,,63.7,,,1,,0
+2026-04,AWS,RES-00448,Load Balancer,Prod,Applications,eu-west-1,253.07,,,86.3,,1255.0,1,,1
+2026-04,AWS,RES-00449,EBS,Dev,Platform,eu-west-2,117.16,,,75.7,46.3,,1,,1
+2026-04,Azure,RES-00450,Blob Storage,Dev,Data,East US,54.94,,,37.3,50.9,1829.0,1,,0
+2026-04,AWS,RES-00451,Load Balancer,Dev,Platform,eu-west-1,67.64,,,80.5,,1185.0,1,,0
+2026-04,AWS,RES-00452,NAT Gateway,Prod,Security,us-east-1,99.22,,,91.7,,,1,,0
+2026-04,AWS,RES-00453,EC2,Prod,Applications,us-east-1,132.38,25.8,44.2,19.2,,,1,76.0,0
+2026-04,AWS,RES-00454,NAT Gateway,Prod,Platform,eu-west-2,172.44,,,88.5,,,1,,0
+2026-04,AWS,RES-00455,EC2,Dev,Cloud Ops,us-east-1,312.78,2.1,5.1,78.8,,,1,21.8,0
+2026-04,Azure,RES-00456,Virtual Machines,UAT,Security,UK South,254.82,56.4,48.5,20.4,,,1,46.9,0
+2026-04,Azure,RES-00457,Load Balancer,Prod,Platform,West Europe,108.18,,,48.9,,2844.0,0,,0
+2026-04,AWS,RES-00458,EBS,Dev,Security,eu-west-2,55.56,,,38.1,59.7,,1,,0
+2026-04,Azure,RES-00459,Virtual Machines,Dev,Cloud Ops,West Europe,470.51,26.7,26.1,71.9,,,1,93.8,0
+2026-04,AWS,RES-00460,NAT Gateway,Prod,Platform,eu-west-2,124.66,,,71.1,,,1,,0
+2026-04,Azure,RES-00461,Virtual Machines,Prod,Data,East US,268.01,6.3,5.6,90.2,,,1,4.1,0
+2026-04,Azure,RES-00462,Managed Disks,Dev,Data,West Europe,126.01,,,31.2,50.9,,1,,0
+2026-04,Azure,RES-00463,Blob Storage,UAT,Applications,East US,131.23,,,71.6,60.0,4384.0,1,,0
+2026-04,AWS,RES-00464,Load Balancer,UAT,Applications,us-east-1,175.15,,,32.5,,621.0,1,,1
+2026-04,Azure,RES-00465,Managed Disks,Prod,Data,East US,51.8,,,84.4,20.4,,1,,0
+2026-04,AWS,RES-00466,S3,Prod,Cloud Ops,us-east-1,86.49,,,35.8,46.1,793.0,1,,0
+2026-04,AWS,RES-00467,EC2,Prod,Data,us-east-1,346.99,7.2,17.3,85.9,,,1,58.3,1
+2026-04,AWS,RES-00468,Load Balancer,Prod,Cloud Ops,eu-west-2,113.54,,,51.1,,1243.0,1,,0
+2026-04,AWS,RES-00469,EBS,Prod,Data,eu-west-1,50.75,,,44.7,18.8,,1,,0
+2026-04,AWS,RES-00470,EC2,Dev,Cloud Ops,eu-west-2,285.35,55.8,55.5,38.8,,,1,47.2,0
+2026-04,AWS,RES-00471,S3,Dev,Security,eu-west-1,36.83,,,30.6,36.3,1444.0,1,,0
+2026-04,AWS,RES-00472,EC2,Prod,Security,eu-west-1,448.26,82.0,55.7,53.8,,,1,84.5,0
+2026-04,AWS,RES-00473,RDS,Prod,Applications,eu-west-1,312.13,,,82.7,,,1,88.1,0
+2026-04,AWS,RES-00474,EC2,Dev,Security,us-east-1,295.01,15.7,32.2,63.4,,,1,77.6,0
+2026-04,AWS,RES-00475,NAT Gateway,Prod,Security,eu-west-2,134.77,,,77.5,,,1,,0
+2026-04,AWS,RES-00476,EBS,Prod,Cloud Ops,us-east-1,101.29,,,64.1,15.1,,1,,0
+2026-04,AWS,RES-00477,EC2,Dev,Platform,us-east-1,141.23,21.4,77.8,70.9,,,1,17.4,0
+2026-04,AWS,RES-00478,RDS,UAT,Applications,eu-west-1,156.07,,,60.7,,,1,27.3,0
+2026-04,AWS,RES-00479,EBS,Prod,Platform,eu-west-1,54.22,,,43.9,42.6,,1,,0
+2026-04,Azure,RES-00480,Blob Storage,Prod,Applications,East US,87.08,,,51.6,65.2,427.0,1,,0
+2026-05,Azure,RES-00481,Managed Disks,UAT,Data,West Europe,77.92,,,54.6,21.6,,1,,0
+2026-05,AWS,RES-00482,EBS,UAT,Security,us-east-1,77.59,,,60.5,40.4,,1,,0
+2026-05,Azure,RES-00483,Managed Disks,Prod,Applications,UK South,94.29,,,86.9,40.5,,1,,0
+2026-05,AWS,RES-00484,S3,Dev,Data,eu-west-2,38.81,,,98.2,32.1,743.0,0,,0
+2026-05,Azure,RES-00485,Virtual Machines,UAT,Security,West Europe,132.43,32.8,27.9,33.7,,,1,15.1,0
+2026-05,AWS,RES-00486,RDS,Prod,Applications,eu-west-2,393.63,,,98.5,,,1,3.8,0
+2026-05,AWS,RES-00487,EC2,Dev,Security,eu-west-2,89.74,19.9,71.7,25.2,,,1,94.4,0
+2026-05,AWS,RES-00488,S3,Prod,Applications,eu-west-1,53.05,,,40.3,47.6,829.0,1,,0
+2026-05,AWS,RES-00489,EC2,Dev,Security,eu-west-1,335.4,14.1,81.8,63.5,,,1,34.5,1
+2026-05,AWS,RES-00490,NAT Gateway,Prod,Platform,us-east-1,198.06,,,44.5,,,1,,0
+2026-05,AWS,RES-00491,S3,Prod,Applications,eu-west-2,32.36,,,77.9,34.1,897.0,1,,0
+2026-05,AWS,RES-00492,S3,Prod,Cloud Ops,us-east-1,68.24,,,34.8,52.8,371.0,1,,0
+2026-05,AWS,RES-00493,EC2,Dev,Data,eu-west-1,351.1,12.9,2.8,95.4,,,1,34.1,0
+2026-05,AWS,RES-00494,RDS,Dev,Data,us-east-1,260.01,,,62.0,,,1,97.0,0
+2026-05,AWS,RES-00495,EC2,Dev,Platform,eu-west-2,188.53,4.1,47.2,82.7,,,0,31.7,0
+2026-05,Azure,RES-00496,Managed Disks,Prod,Data,East US,75.42,,,78.6,30.7,,1,,0
+2026-05,AWS,RES-00497,Load Balancer,Dev,Platform,eu-west-1,35.83,,,61.6,,726.0,1,,0
+2026-05,Azure,RES-00498,Virtual Machines,UAT,Applications,UK South,178.05,49.2,24.8,31.7,,,1,78.0,0
+2026-05,Azure,RES-00499,Virtual Machines,Prod,Applications,East US,209.53,16.4,10.3,70.2,,,1,82.4,0
+2026-05,AWS,RES-00500,EC2,Prod,Applications,us-east-1,109.11,22.3,25.4,30.5,,,1,2.8,0
+2026-05,Azure,RES-00501,Virtual Machines,Prod,Security,UK South,353.85,2.7,16.8,84.6,,,1,44.9,0
+2026-05,Azure,RES-00502,Load Balancer,Dev,Platform,West Europe,143.74,,,40.5,,1227.0,1,,0
+2026-05,Azure,RES-00503,NAT Gateway,Prod,Security,East US,132.7,,,49.3,,,1,,1
+2026-05,AWS,RES-00504,EC2,Prod,Data,eu-west-2,112.2,4.4,11.6,93.1,,,1,64.6,0
+2026-05,AWS,RES-00505,EC2,Prod,Data,us-east-1,158.15,1.8,6.2,28.3,,,1,53.6,0
+2026-05,Azure,RES-00506,Blob Storage,Prod,Applications,East US,106.29,,,92.0,21.5,2200.0,1,,0
+2026-05,AWS,RES-00507,EC2,Prod,Platform,eu-west-2,448.88,31.6,44.4,16.6,,,1,52.8,1
+2026-05,Azure,RES-00508,SQL Database,Dev,Cloud Ops,West Europe,223.1,,,46.6,,,1,17.1,0
+2026-05,Azure,RES-00509,Managed Disks,Dev,Security,West Europe,113.63,,,30.2,48.3,,1,,0
+2026-05,Azure,RES-00510,Virtual Machines,Prod,Cloud Ops,East US,424.31,6.7,15.6,86.5,,,1,59.4,0
+2026-05,AWS,RES-00511,EC2,UAT,Cloud Ops,eu-west-2,403.78,14.0,18.5,96.8,,,1,16.9,0
+2026-05,AWS,RES-00512,S3,Prod,Data,eu-west-1,53.81,,,83.4,43.5,363.0,1,,0
+2026-05,AWS,RES-00513,S3,Dev,Data,us-east-1,22.86,,,87.3,72.2,1870.0,1,,0
+2026-05,AWS,RES-00514,EBS,Dev,Platform,eu-west-1,79.84,,,48.7,18.2,,1,,0
+2026-05,AWS,RES-00515,EBS,UAT,Platform,eu-west-1,58.78,,,95.7,57.8,,1,,0
+2026-05,AWS,RES-00516,EC2,Prod,Applications,eu-west-2,129.86,47.8,12.9,35.4,,,1,58.2,0
+2026-05,AWS,RES-00517,EC2,Prod,Applications,us-east-1,328.36,19.3,46.4,74.1,,,1,68.3,0
+2026-05,Azure,RES-00518,Managed Disks,Prod,Applications,West Europe,46.55,,,99.8,26.8,,1,,0
+2026-05,AWS,RES-00519,RDS,Dev,Data,eu-west-1,365.72,,,96.6,,,1,7.7,0
+2026-05,Azure,RES-00520,Load Balancer,Prod,Security,East US,44.9,,,31.8,,742.0,1,,0
+2026-05,AWS,RES-00521,EC2,UAT,Security,us-east-1,248.08,38.5,35.9,93.4,,,1,84.3,0
+2026-05,Azure,RES-00522,NAT Gateway,Prod,Data,West Europe,86.18,,,49.7,,,1,,0
+2026-05,AWS,RES-00523,Load Balancer,Dev,Cloud Ops,eu-west-2,40.95,,,89.1,,1610.0,0,,0
+2026-05,AWS,RES-00524,EBS,UAT,Data,us-east-1,68.75,,,90.4,45.2,,1,,0
+2026-05,AWS,RES-00525,RDS,Prod,Data,eu-west-1,481.29,,,40.5,,,1,75.3,0
+2026-05,AWS,RES-00526,Load Balancer,Prod,Security,eu-west-2,119.84,,,83.1,,1407.0,1,,0
+2026-05,Azure,RES-00527,Managed Disks,UAT,Cloud Ops,East US,58.75,,,65.9,31.8,,0,,0
+2026-05,Azure,RES-00528,SQL Database,Prod,Security,West Europe,369.16,,,90.6,,,1,91.8,0
+2026-05,AWS,RES-00529,Load Balancer,Prod,Applications,eu-west-2,72.37,,,32.6,,255.0,1,,0
+2026-05,Azure,RES-00530,Virtual Machines,Prod,Cloud Ops,West Europe,165.49,40.2,33.2,58.9,,,0,31.5,0
+2026-05,Azure,RES-00531,SQL Database,Prod,Applications,East US,321.69,,,90.4,,,1,44.0,0
+2026-05,AWS,RES-00532,S3,Prod,Applications,us-east-1,29.11,,,78.8,31.8,1735.0,1,,0
+2026-05,Azure,RES-00533,SQL Database,Prod,Applications,UK South,189.75,,,69.2,,,1,83.9,0
+2026-05,Azure,RES-00534,Blob Storage,Dev,Applications,West Europe,82.39,,,74.5,58.4,1993.0,1,,0
+2026-05,AWS,RES-00535,NAT Gateway,Dev,Applications,eu-west-2,180.85,,,86.1,,,1,,0
+2026-05,AWS,RES-00536,EBS,Prod,Platform,eu-west-1,151.26,,,71.3,26.9,,0,,0
+2026-05,Azure,RES-00537,Blob Storage,UAT,Applications,West Europe,51.03,,,32.7,44.7,15322.0,1,,0
+2026-05,Azure,RES-00538,SQL Database,UAT,Cloud Ops,UK South,251.51,,,75.9,,,1,68.4,0
+2026-05,AWS,RES-00539,EC2,Prod,Security,eu-west-2,218.31,38.0,13.9,72.1,,,1,15.7,0
+2026-05,Azure,RES-00540,Virtual Machines,Prod,Applications,UK South,364.2,20.4,36.6,74.0,,,1,49.5,0
+2026-05,AWS,RES-00541,EC2,Prod,Platform,eu-west-1,441.92,28.5,25.0,41.3,,,1,57.1,0
+2026-05,AWS,RES-00542,Load Balancer,Dev,Security,eu-west-1,78.94,,,64.0,,854.0,1,,0
+2026-05,Azure,RES-00543,SQL Database,Prod,Applications,UK South,604.12,,,55.6,,,0,98.5,0
+2026-05,Azure,RES-00544,Blob Storage,Prod,Applications,UK South,34.38,,,37.0,68.3,1605.0,1,,0
+2026-05,AWS,RES-00545,EC2,Dev,Platform,eu-west-1,104.03,13.4,24.1,87.4,,,1,22.6,0
+2026-05,AWS,RES-00546,EC2,Prod,Cloud Ops,eu-west-2,161.12,46.1,13.0,36.9,,,1,77.4,0
+2026-05,AWS,RES-00547,EBS,Prod,Cloud Ops,us-east-1,94.96,,,76.6,17.4,,1,,0
+2026-05,AWS,RES-00548,NAT Gateway,UAT,Platform,us-east-1,99.37,,,36.3,,,0,,0
+2026-05,AWS,RES-00549,Load Balancer,Dev,Security,us-east-1,60.09,,,81.4,,585.0,0,,0
+2026-05,AWS,RES-00550,S3,UAT,Security,eu-west-2,45.97,,,30.2,20.1,191.0,1,,0
+2026-05,Azure,RES-00551,Blob Storage,Dev,Cloud Ops,East US,25.38,,,58.7,33.6,3019.0,1,,0
+2026-05,Azure,RES-00552,Virtual Machines,UAT,Data,West Europe,429.78,29.7,17.7,69.0,,,1,51.8,0
+2026-05,AWS,RES-00553,EC2,UAT,Data,eu-west-2,301.88,73.3,38.0,64.8,,,1,6.5,0
+2026-05,Azure,RES-00554,NAT Gateway,UAT,Platform,UK South,78.59,,,86.3,,,0,,0
+2026-05,Azure,RES-00555,SQL Database,UAT,Platform,East US,337.12,,,83.7,,,1,3.4,0
+2026-05,AWS,RES-00556,EC2,UAT,Cloud Ops,eu-west-2,374.46,26.6,16.0,46.2,,,1,6.7,1
+2026-05,AWS,RES-00557,EC2,Prod,Security,eu-west-2,247.68,23.5,3.2,64.5,,,0,44.2,0
+2026-05,AWS,RES-00558,RDS,Prod,Platform,us-east-1,690.64,,,36.9,,,1,14.7,1
+2026-05,Azure,RES-00559,Managed Disks,Prod,Security,West Europe,83.62,,,35.1,22.3,,1,,0
+2026-05,AWS,RES-00560,RDS,Prod,Security,eu-west-1,413.91,,,86.7,,,0,89.2,0
+2026-05,AWS,RES-00561,RDS,Dev,Cloud Ops,us-east-1,341.45,,,60.7,,,1,40.9,0
+2026-05,Azure,RES-00562,Managed Disks,Prod,Data,UK South,138.4,,,56.2,62.6,,1,,0
+2026-05,AWS,RES-00563,RDS,Dev,Cloud Ops,eu-west-1,515.35,,,34.8,,,1,72.7,0
+2026-05,AWS,RES-00564,EC2,UAT,Data,eu-west-1,98.15,6.8,21.0,67.0,,,1,90.2,0
+2026-05,AWS,RES-00565,S3,Prod,Data,us-east-1,45.09,,,86.1,30.4,2383.0,1,,0
+2026-05,AWS,RES-00566,NAT Gateway,UAT,Data,eu-west-2,72.29,,,84.1,,,1,,0
+2026-05,AWS,RES-00567,Load Balancer,Dev,Platform,eu-west-2,44.2,,,51.0,,755.0,1,,0
+2026-05,Azure,RES-00568,Blob Storage,Prod,Security,East US,59.62,,,37.5,31.3,913.0,1,,0
+2026-05,Azure,RES-00569,Managed Disks,Dev,Cloud Ops,UK South,78.24,,,63.1,77.0,,1,,0
+2026-05,Azure,RES-00570,Managed Disks,Prod,Platform,UK South,82.88,,,45.8,52.4,,1,,1
+2026-05,Azure,RES-00571,SQL Database,Prod,Cloud Ops,East US,255.85,,,90.8,,,1,97.1,0
+2026-05,Azure,RES-00572,Blob Storage,Prod,Applications,East US,34.89,,,31.0,35.5,3720.0,1,,0
+2026-05,AWS,RES-00573,NAT Gateway,UAT,Applications,us-east-1,192.72,,,32.1,,,1,,0
+2026-05,AWS,RES-00574,Load Balancer,UAT,Security,eu-west-1,80.4,,,69.5,,3835.0,1,,0
+2026-05,AWS,RES-00575,S3,Prod,Security,us-east-1,34.6,,,62.5,17.4,422.0,0,,0
+2026-05,AWS,RES-00576,NAT Gateway,Prod,Data,eu-west-1,148.79,,,86.7,,,1,,0
+2026-05,Azure,RES-00577,SQL Database,Prod,Data,UK South,324.94,,,89.8,,,1,7.1,0
+2026-05,Azure,RES-00578,Managed Disks,Prod,Security,East US,174.78,,,61.2,19.8,,1,,0
+2026-05,Azure,RES-00579,Load Balancer,UAT,Data,East US,80.56,,,38.3,,1002.0,1,,0
+2026-05,Azure,RES-00580,SQL Database,Dev,Applications,West Europe,264.01,,,43.4,,,1,68.5,0
+2026-05,Azure,RES-00581,Virtual Machines,Prod,Platform,East US,364.51,43.3,32.4,92.7,,,1,94.6,0
+2026-05,AWS,RES-00582,RDS,Prod,Data,eu-west-2,325.74,,,38.0,,,1,44.1,0
+2026-05,Azure,RES-00583,Virtual Machines,Prod,Platform,UK South,516.31,42.2,34.3,18.8,,,1,76.7,0
+2026-05,Azure,RES-00584,Virtual Machines,Dev,Platform,UK South,197.3,34.9,23.7,94.6,,,1,42.5,0
+2026-05,Azure,RES-00585,NAT Gateway,Prod,Applications,West Europe,140.31,,,89.6,,,1,,0
+2026-05,AWS,RES-00586,EBS,Prod,Applications,eu-west-1,110.18,,,100.0,46.5,,1,,0
+2026-05,Azure,RES-00587,Virtual Machines,Prod,Platform,East US,418.63,25.0,21.3,86.1,,,1,77.6,0
+2026-05,AWS,RES-00588,S3,Prod,Platform,eu-west-1,18.17,,,99.7,50.4,5188.0,1,,0
+2026-05,Azure,RES-00589,Managed Disks,UAT,Security,UK South,39.09,,,63.1,23.3,,0,,0
+2026-05,AWS,RES-00590,EC2,UAT,Applications,us-east-1,126.82,82.6,60.5,57.8,,,0,37.0,0
+2026-05,AWS,RES-00591,EC2,Prod,Security,eu-west-1,239.73,25.1,28.6,38.2,,,1,15.9,0
+2026-05,AWS,RES-00592,EC2,Dev,Platform,us-east-1,152.1,3.4,41.3,55.9,,,1,26.6,0
+2026-05,AWS,RES-00593,RDS,Prod,Platform,eu-west-1,460.12,,,32.6,,,1,76.4,0
+2026-05,AWS,RES-00594,Load Balancer,Dev,Security,eu-west-2,207.58,,,45.4,,394.0,1,,1
+2026-05,Azure,RES-00595,Virtual Machines,UAT,Security,West Europe,299.66,11.0,15.3,64.5,,,1,78.7,0
+2026-05,Azure,RES-00596,Virtual Machines,Prod,Platform,West Europe,358.77,37.8,54.1,15.9,,,1,68.5,0
+2026-05,AWS,RES-00597,NAT Gateway,Prod,Cloud Ops,eu-west-1,90.02,,,41.2,,,1,,0
+2026-05,Azure,RES-00598,NAT Gateway,Prod,Security,UK South,181.41,,,40.0,,,1,,0
+2026-05,AWS,RES-00599,EC2,Dev,Data,eu-west-2,131.66,3.5,40.7,47.0,,,1,27.2,0
+2026-05,Azure,RES-00600,Virtual Machines,Prod,Cloud Ops,West Europe,156.46,11.5,20.1,76.8,,,1,76.4,0
+2026-06,AWS,RES-00601,NAT Gateway,Prod,Applications,us-east-1,124.87,,,52.4,,,1,,0
+2026-06,Azure,RES-00602,Managed Disks,Prod,Platform,UK South,56.49,,,73.0,86.5,,1,,0
+2026-06,AWS,RES-00603,S3,UAT,Applications,us-east-1,48.4,,,51.3,64.4,1551.0,1,,0
+2026-06,AWS,RES-00604,EC2,Dev,Cloud Ops,eu-west-1,288.05,24.8,41.6,27.1,,,1,3.5,0
+2026-06,Azure,RES-00605,SQL Database,Prod,Applications,East US,307.57,,,73.8,,,1,5.0,0
+2026-06,Azure,RES-00606,Blob Storage,UAT,Security,East US,52.26,,,68.7,39.0,172.0,1,,0
+2026-06,Azure,RES-00607,Virtual Machines,Prod,Data,UK South,204.83,22.8,42.1,23.9,,,1,50.1,0
+2026-06,AWS,RES-00608,Load Balancer,Prod,Applications,eu-west-2,61.51,,,92.5,,930.0,1,,0
+2026-06,AWS,RES-00609,EC2,Dev,Cloud Ops,us-east-1,196.7,7.3,18.0,96.3,,,1,43.3,0
+2026-06,Azure,RES-00610,Load Balancer,Prod,Data,East US,78.58,,,58.7,,678.0,1,,0
+2026-06,Azure,RES-00611,SQL Database,UAT,Data,East US,508.56,,,74.2,,,1,7.1,0
+2026-06,Azure,RES-00612,Blob Storage,UAT,Platform,UK South,90.81,,,47.3,92.7,8380.0,1,,0
+2026-06,Azure,RES-00613,SQL Database,Prod,Data,West Europe,656.41,,,52.7,,,1,25.3,0
+2026-06,AWS,RES-00614,S3,Prod,Data,eu-west-1,32.22,,,45.0,64.3,5262.0,1,,0
+2026-06,Azure,RES-00615,Blob Storage,UAT,Applications,East US,35.32,,,40.5,24.5,2559.0,1,,0
+2026-06,AWS,RES-00616,S3,UAT,Security,eu-west-2,34.38,,,41.7,22.9,651.0,1,,0
+2026-06,AWS,RES-00617,EC2,Prod,Data,eu-west-2,252.43,13.2,21.5,70.7,,,1,15.7,0
+2026-06,Azure,RES-00618,Virtual Machines,Prod,Data,West Europe,212.17,61.2,5.7,96.4,,,1,32.9,0
+2026-06,AWS,RES-00619,EC2,Dev,Applications,eu-west-2,121.95,47.5,28.0,23.7,,,1,18.8,0
+2026-06,AWS,RES-00620,EC2,Dev,Platform,eu-west-1,151.07,9.7,21.4,28.9,,,1,59.5,0
+2026-06,AWS,RES-00621,RDS,Prod,Platform,us-east-1,466.74,,,86.9,,,1,50.2,0
+2026-06,AWS,RES-00622,EBS,Dev,Security,eu-west-2,71.33,,,97.9,43.0,,1,,0
+2026-06,Azure,RES-00623,Managed Disks,Prod,Data,East US,91.67,,,41.6,81.6,,0,,0
+2026-06,Azure,RES-00624,SQL Database,Prod,Platform,East US,93.89,,,38.8,,,1,37.5,0
+2026-06,Azure,RES-00625,Load Balancer,Dev,Applications,West Europe,85.95,,,99.2,,1769.0,1,,0
+2026-06,Azure,RES-00626,Virtual Machines,Dev,Security,East US,95.98,9.1,21.0,58.4,,,1,45.0,0
+2026-06,AWS,RES-00627,S3,UAT,Platform,eu-west-1,40.78,,,92.4,72.6,2898.0,1,,0
+2026-06,Azure,RES-00628,Virtual Machines,Dev,Platform,UK South,255.83,10.1,48.7,62.3,,,1,19.3,0
+2026-06,Azure,RES-00629,Load Balancer,Prod,Applications,UK South,33.55,,,85.9,,765.0,1,,0
+2026-06,AWS,RES-00630,EBS,Prod,Cloud Ops,eu-west-1,65.35,,,81.0,28.4,,1,,0
+2026-06,Azure,RES-00631,SQL Database,Dev,Cloud Ops,UK South,366.07,,,90.6,,,1,56.3,0
+2026-06,AWS,RES-00632,EC2,Prod,Data,us-east-1,254.09,7.5,19.2,96.7,,,0,46.0,0
+2026-06,Azure,RES-00633,SQL Database,Dev,Applications,West Europe,190.66,,,73.5,,,1,68.9,0
+2026-06,Azure,RES-00634,Blob Storage,Prod,Security,UK South,126.16,,,83.9,58.8,617.0,1,,1
+2026-06,AWS,RES-00635,Load Balancer,Dev,Data,eu-west-2,120.8,,,35.0,,476.0,1,,0
+2026-06,Azure,RES-00636,SQL Database,Dev,Applications,West Europe,448.86,,,49.3,,,1,57.8,0
+2026-06,AWS,RES-00637,RDS,UAT,Applications,eu-west-1,259.08,,,86.9,,,1,98.0,0
+2026-06,Azure,RES-00638,SQL Database,Prod,Platform,West Europe,601.26,,,83.8,,,1,61.8,1
+2026-06,AWS,RES-00639,EC2,UAT,Security,eu-west-2,324.48,42.0,48.7,54.5,,,1,94.5,0
+2026-06,AWS,RES-00640,RDS,UAT,Data,us-east-1,185.16,,,51.1,,,0,14.2,0
+2026-06,Azure,RES-00641,Blob Storage,Prod,Security,West Europe,46.36,,,71.7,33.6,3502.0,0,,0
+2026-06,AWS,RES-00642,EC2,Dev,Applications,eu-west-2,840.76,3.5,11.3,81.7,,,1,89.4,1
+2026-06,Azure,RES-00643,Virtual Machines,Prod,Data,UK South,259.13,6.3,8.7,76.7,,,1,59.9,0
+2026-06,Azure,RES-00644,Managed Disks,Prod,Platform,East US,42.69,,,63.4,76.4,,1,,0
+2026-06,AWS,RES-00645,RDS,Dev,Security,us-east-1,485.43,,,79.8,,,1,7.5,0
+2026-06,Azure,RES-00646,Blob Storage,UAT,Security,West Europe,50.48,,,30.8,14.5,689.0,0,,0
+2026-06,AWS,RES-00647,RDS,Prod,Applications,eu-west-2,196.15,,,34.6,,,1,38.4,0
+2026-06,AWS,RES-00648,RDS,Prod,Cloud Ops,eu-west-2,264.38,,,90.2,,,1,3.9,0
+2026-06,AWS,RES-00649,NAT Gateway,Dev,Security,us-east-1,119.12,,,68.1,,,0,,0
+2026-06,AWS,RES-00650,EC2,Prod,Security,eu-west-2,214.9,26.7,9.6,18.6,,,1,90.5,0
+2026-06,AWS,RES-00651,Load Balancer,UAT,Security,us-east-1,82.32,,,58.7,,2366.0,1,,0
+2026-06,Azure,RES-00652,Blob Storage,Prod,Cloud Ops,West Europe,55.22,,,39.9,44.1,643.0,0,,0
+2026-06,Azure,RES-00653,Virtual Machines,UAT,Cloud Ops,UK South,532.59,6.9,10.7,77.4,,,1,54.1,0
+2026-06,AWS,RES-00654,NAT Gateway,UAT,Platform,eu-west-2,211.29,,,92.6,,,1,,1
+2026-06,AWS,RES-00655,Load Balancer,Dev,Data,eu-west-1,167.48,,,30.3,,2702.0,1,,0
+2026-06,AWS,RES-00656,S3,Prod,Platform,eu-west-2,45.39,,,30.6,56.5,490.0,1,,0
+2026-06,Azure,RES-00657,Managed Disks,Prod,Applications,West Europe,120.59,,,69.4,62.1,,1,,0
+2026-06,Azure,RES-00658,Blob Storage,Prod,Data,West Europe,98.49,,,42.5,6.5,1861.0,1,,0
+2026-06,Azure,RES-00659,NAT Gateway,Dev,Platform,West Europe,171.34,,,97.7,,,1,,0
+2026-06,AWS,RES-00660,EBS,UAT,Applications,eu-west-2,53.79,,,40.3,25.1,,1,,0
+2026-06,AWS,RES-00661,EC2,UAT,Data,us-east-1,122.93,67.3,67.7,44.1,,,1,34.5,0
+2026-06,AWS,RES-00662,S3,UAT,Cloud Ops,us-east-1,35.44,,,90.5,39.5,323.0,1,,0
+2026-06,AWS,RES-00663,S3,Prod,Security,eu-west-1,27.06,,,67.5,44.1,2850.0,1,,0
+2026-06,Azure,RES-00664,Virtual Machines,Prod,Data,West Europe,131.11,7.0,18.1,81.4,,,1,15.9,0
+2026-06,AWS,RES-00665,Load Balancer,Prod,Security,eu-west-1,105.98,,,78.3,,452.0,0,,0
+2026-06,AWS,RES-00666,EC2,Prod,Platform,eu-west-2,281.38,27.2,70.2,80.4,,,1,88.3,0
+2026-06,AWS,RES-00667,RDS,Dev,Security,eu-west-1,179.5,,,41.9,,,0,46.7,0
+2026-06,AWS,RES-00668,EC2,Prod,Data,eu-west-1,230.84,48.3,15.6,17.4,,,1,16.2,0
+2026-06,Azure,RES-00669,Virtual Machines,Dev,Applications,UK South,423.82,5.6,40.5,71.0,,,1,94.8,1
+2026-06,Azure,RES-00670,Blob Storage,Dev,Platform,West Europe,44.67,,,46.5,68.1,471.0,1,,0
+2026-06,AWS,RES-00671,NAT Gateway,Prod,Cloud Ops,eu-west-2,207.27,,,48.3,,,1,,0
+2026-06,AWS,RES-00672,RDS,Prod,Applications,eu-west-1,439.47,,,56.3,,,1,62.5,0
+2026-06,AWS,RES-00673,RDS,Dev,Data,us-east-1,384.58,,,34.5,,,1,22.4,0
+2026-06,AWS,RES-00674,EC2,Prod,Applications,eu-west-2,362.98,46.4,56.7,88.4,,,1,45.3,0
+2026-06,AWS,RES-00675,EBS,Dev,Cloud Ops,us-east-1,111.68,,,97.7,9.4,,1,,1
+2026-06,AWS,RES-00676,NAT Gateway,Dev,Data,eu-west-2,67.86,,,91.1,,,0,,0
+2026-06,Azure,RES-00677,Managed Disks,UAT,Data,UK South,79.61,,,54.1,9.0,,1,,0
+2026-06,Azure,RES-00678,Managed Disks,Prod,Platform,UK South,81.95,,,53.9,46.8,,1,,0
+2026-06,AWS,RES-00679,RDS,UAT,Data,eu-west-1,392.46,,,80.7,,,1,38.2,0
+2026-06,Azure,RES-00680,SQL Database,Dev,Security,East US,274.47,,,86.0,,,1,46.5,0
+2026-06,Azure,RES-00681,Virtual Machines,UAT,Applications,East US,437.65,40.6,43.1,85.9,,,1,65.8,0
+2026-06,Azure,RES-00682,Blob Storage,UAT,Security,UK South,48.86,,,34.4,12.1,1628.0,1,,0
+2026-06,AWS,RES-00683,EC2,UAT,Security,eu-west-1,164.01,31.0,45.9,45.4,,,1,51.0,0
+2026-06,AWS,RES-00684,Load Balancer,Prod,Data,eu-west-2,125.55,,,51.2,,305.0,1,,0
+2026-06,Azure,RES-00685,Virtual Machines,Prod,Platform,East US,116.96,25.8,11.2,73.5,,,1,21.4,0
+2026-06,AWS,RES-00686,EC2,UAT,Security,us-east-1,424.08,27.7,46.2,66.4,,,0,2.9,0
+2026-06,Azure,RES-00687,Virtual Machines,Prod,Platform,East US,179.3,24.9,25.1,47.8,,,1,85.5,0
+2026-06,AWS,RES-00688,Load Balancer,Dev,Applications,eu-west-1,170.07,,,69.3,,4389.0,1,,0
+2026-06,AWS,RES-00689,EC2,Dev,Security,eu-west-2,47.92,20.5,6.5,31.9,,,1,45.0,0
+2026-06,AWS,RES-00690,EC2,Prod,Data,eu-west-2,397.54,37.5,23.7,29.4,,,1,98.9,0
+2026-06,Azure,RES-00691,Virtual Machines,Dev,Data,West Europe,932.87,13.1,45.3,41.2,,,1,38.1,0
+2026-06,Azure,RES-00692,Managed Disks,Dev,Data,West Europe,61.06,,,51.0,20.8,,1,,0
+2026-06,Azure,RES-00693,Virtual Machines,Prod,Cloud Ops,West Europe,509.0,3.0,7.7,96.1,,,1,15.4,1
+2026-06,Azure,RES-00694,Virtual Machines,Prod,Platform,East US,497.85,9.4,9.1,41.5,,,1,63.8,0
+2026-06,AWS,RES-00695,EBS,Prod,Data,us-east-1,108.27,,,85.2,64.7,,1,,0
+2026-06,AWS,RES-00696,EBS,Prod,Data,eu-west-2,125.99,,,97.6,51.4,,0,,0
+2026-06,AWS,RES-00697,EC2,Dev,Cloud Ops,eu-west-1,279.18,3.6,12.5,81.0,,,1,21.4,1
+2026-06,AWS,RES-00698,NAT Gateway,Prod,Cloud Ops,eu-west-2,111.64,,,80.1,,,0,,0
+2026-06,AWS,RES-00699,S3,Dev,Applications,eu-west-2,34.54,,,35.4,45.3,2028.0,1,,0
+2026-06,Azure,RES-00700,Load Balancer,Dev,Platform,West Europe,88.72,,,51.3,,1644.0,1,,0
+2026-06,AWS,RES-00701,EC2,UAT,Platform,us-east-1,234.51,59.6,60.3,96.9,,,1,27.5,0
+2026-06,AWS,RES-00702,EC2,Prod,Data,eu-west-2,92.28,50.8,38.2,76.9,,,1,11.3,0
+2026-06,Azure,RES-00703,Managed Disks,Prod,Cloud Ops,West Europe,46.32,,,32.5,26.6,,0,,0
+2026-06,Azure,RES-00704,Virtual Machines,Dev,Applications,UK South,239.77,46.0,51.9,81.2,,,1,9.1,0
+2026-06,Azure,RES-00705,Load Balancer,Dev,Data,West Europe,117.01,,,65.3,,857.0,1,,0
+2026-06,Azure,RES-00706,Load Balancer,Prod,Platform,East US,86.3,,,82.6,,1101.0,1,,0
+2026-06,AWS,RES-00707,EBS,UAT,Data,eu-west-2,76.53,,,96.6,37.8,,1,,0
+2026-06,Azure,RES-00708,SQL Database,UAT,Cloud Ops,West Europe,272.88,,,83.5,,,1,80.1,0
+2026-06,Azure,RES-00709,Managed Disks,Prod,Cloud Ops,UK South,71.37,,,55.7,23.6,,1,,0
+2026-06,AWS,RES-00710,RDS,Prod,Security,eu-west-2,267.8,,,71.1,,,1,92.4,0
+2026-06,Azure,RES-00711,Load Balancer,Prod,Security,East US,160.51,,,33.5,,326.0,1,,0
+2026-06,Azure,RES-00712,Blob Storage,Dev,Platform,East US,25.85,,,45.1,11.6,496.0,1,,0
+2026-06,Azure,RES-00713,Managed Disks,UAT,Cloud Ops,East US,70.16,,,72.8,25.2,,1,,0
+2026-06,AWS,RES-00714,EC2,Dev,Data,us-east-1,391.99,7.1,19.0,20.4,,,1,83.6,0
+2026-06,Azure,RES-00715,Virtual Machines,Prod,Cloud Ops,West Europe,161.66,19.7,26.5,56.6,,,1,69.2,0
+2026-06,Azure,RES-00716,SQL Database,UAT,Cloud Ops,UK South,441.28,,,43.6,,,0,1.0,0
+2026-06,AWS,RES-00717,EBS,Prod,Data,eu-west-1,82.12,,,41.2,40.9,,0,,0
+2026-06,AWS,RES-00718,EC2,UAT,Data,us-east-1,83.7,20.3,36.3,78.6,,,0,41.9,0
+2026-06,AWS,RES-00719,RDS,Prod,Data,eu-west-1,223.58,,,61.1,,,1,11.8,0
+2026-06,Azure,RES-00720,Managed Disks,UAT,Platform,West Europe,185.27,,,54.3,27.7,,0,,0
+2026-07,AWS,RES-00721,RDS,Dev,Applications,eu-west-2,367.81,,,75.9,,,1,31.7,0
+2026-07,Azure,RES-00722,SQL Database,Prod,Data,West Europe,148.42,,,82.1,,,1,98.4,0
+2026-07,Azure,RES-00723,Managed Disks,Prod,Cloud Ops,UK South,71.25,,,89.0,23.8,,0,,0
+2026-07,AWS,RES-00724,Load Balancer,Prod,Platform,us-east-1,41.32,,,70.1,,1649.0,1,,0
+2026-07,AWS,RES-00725,NAT Gateway,Prod,Platform,eu-west-1,53.46,,,97.3,,,1,,0
+2026-07,AWS,RES-00726,S3,Prod,Cloud Ops,eu-west-2,81.43,,,65.8,49.9,1532.0,1,,0
+2026-07,Azure,RES-00727,Blob Storage,Prod,Data,UK South,67.21,,,36.1,14.6,684.0,1,,0
+2026-07,AWS,RES-00728,Load Balancer,Prod,Data,us-east-1,74.99,,,55.9,,2815.0,0,,0
+2026-07,AWS,RES-00729,EBS,Prod,Data,us-east-1,45.34,,,97.1,27.9,,1,,0
+2026-07,AWS,RES-00730,EC2,Prod,Data,us-east-1,377.09,55.9,51.5,87.1,,,1,67.6,0
+2026-07,AWS,RES-00731,RDS,UAT,Applications,eu-west-2,273.11,,,53.4,,,1,56.8,0
+2026-07,AWS,RES-00732,EBS,Prod,Applications,us-east-1,65.58,,,80.8,17.9,,1,,0
+2026-07,AWS,RES-00733,NAT Gateway,Prod,Platform,eu-west-2,66.19,,,70.0,,,1,,0
+2026-07,AWS,RES-00734,RDS,Dev,Platform,eu-west-1,305.68,,,67.9,,,1,58.7,0
+2026-07,AWS,RES-00735,EC2,Prod,Cloud Ops,eu-west-2,251.55,41.5,49.2,42.2,,,1,43.2,0
+2026-07,AWS,RES-00736,EBS,Prod,Cloud Ops,us-east-1,83.33,,,63.6,52.1,,1,,0
+2026-07,AWS,RES-00737,RDS,Prod,Cloud Ops,us-east-1,474.37,,,65.2,,,1,41.8,0
+2026-07,Azure,RES-00738,SQL Database,Prod,Security,East US,308.24,,,39.3,,,0,65.0,0
+2026-07,Azure,RES-00739,SQL Database,Prod,Data,UK South,836.86,,,79.0,,,1,79.8,1
+2026-07,AWS,RES-00740,EC2,Prod,Security,eu-west-2,369.03,42.8,20.6,31.1,,,0,32.6,0
+2026-07,AWS,RES-00741,EC2,Prod,Security,eu-west-1,316.01,16.8,24.2,83.3,,,1,46.9,0
+2026-07,Azure,RES-00742,NAT Gateway,UAT,Platform,East US,68.72,,,74.9,,,1,,0
+2026-07,AWS,RES-00743,EC2,UAT,Platform,eu-west-1,168.42,4.8,16.6,97.4,,,0,48.5,0
+2026-07,AWS,RES-00744,EC2,Prod,Applications,eu-west-1,255.6,16.9,35.7,76.1,,,1,39.5,0
+2026-07,AWS,RES-00745,EC2,Prod,Security,eu-west-2,317.13,22.0,12.7,70.4,,,1,94.7,0
+2026-07,AWS,RES-00746,NAT Gateway,Dev,Applications,eu-west-1,90.2,,,98.1,,,1,,0
+2026-07,Azure,RES-00747,Virtual Machines,UAT,Platform,East US,346.73,24.0,41.0,25.3,,,0,65.9,1
+2026-07,Azure,RES-00748,Managed Disks,Prod,Security,East US,50.73,,,76.6,27.3,,1,,0
+2026-07,Azure,RES-00749,Blob Storage,Prod,Platform,UK South,32.79,,,59.1,37.9,2601.0,1,,0
+2026-07,Azure,RES-00750,NAT Gateway,Prod,Platform,East US,124.32,,,50.4,,,1,,0
+2026-07,AWS,RES-00751,EBS,Dev,Cloud Ops,eu-west-1,44.27,,,92.8,70.2,,0,,0
+2026-07,AWS,RES-00752,RDS,UAT,Data,eu-west-1,366.3,,,59.1,,,1,66.9,0
+2026-07,Azure,RES-00753,Virtual Machines,Prod,Platform,UK South,204.46,18.1,59.5,98.4,,,1,27.6,0
+2026-07,AWS,RES-00754,RDS,Prod,Applications,eu-west-2,390.18,,,43.8,,,1,63.3,0
+2026-07,AWS,RES-00755,S3,UAT,Applications,us-east-1,59.32,,,48.0,26.6,164.0,1,,0
+2026-07,AWS,RES-00756,EC2,UAT,Applications,us-east-1,281.29,43.6,26.0,90.8,,,1,87.2,1
+2026-07,AWS,RES-00757,EC2,Dev,Security,us-east-1,666.93,53.9,6.8,56.2,,,1,20.4,1
+2026-07,Azure,RES-00758,Managed Disks,UAT,Platform,UK South,72.21,,,86.9,48.3,,1,,0
+2026-07,AWS,RES-00759,EBS,Prod,Data,eu-west-2,89.67,,,82.2,24.5,,1,,0
+2026-07,AWS,RES-00760,EC2,Prod,Platform,eu-west-2,201.59,7.1,13.8,58.4,,,0,52.8,0
+2026-07,Azure,RES-00761,Managed Disks,Prod,Platform,West Europe,176.71,,,47.2,75.0,,1,,0
+2026-07,AWS,RES-00762,S3,Prod,Applications,us-east-1,51.49,,,57.9,20.6,3110.0,1,,0
+2026-07,AWS,RES-00763,S3,Prod,Security,eu-west-2,33.41,,,47.5,11.6,814.0,1,,0
+2026-07,Azure,RES-00764,Blob Storage,Prod,Platform,East US,65.51,,,74.1,62.7,1473.0,1,,0
+2026-07,AWS,RES-00765,EBS,Prod,Security,us-east-1,124.0,,,72.6,13.5,,1,,0
+2026-07,AWS,RES-00766,S3,Prod,Data,eu-west-1,33.69,,,42.1,79.2,455.0,1,,0
+2026-07,AWS,RES-00767,EC2,Prod,Cloud Ops,eu-west-2,177.38,47.7,38.2,55.0,,,1,22.2,0
+2026-07,Azure,RES-00768,Virtual Machines,Prod,Platform,West Europe,323.29,42.7,45.8,60.8,,,1,29.5,0
+2026-07,AWS,RES-00769,RDS,Prod,Platform,us-east-1,297.51,,,71.3,,,1,43.0,0
+2026-07,Azure,RES-00770,Virtual Machines,Dev,Platform,East US,235.65,6.7,10.2,89.0,,,0,50.2,0
+2026-07,AWS,RES-00771,Load Balancer,Prod,Data,eu-west-2,30.96,,,99.1,,759.0,1,,0
+2026-07,AWS,RES-00772,Load Balancer,Dev,Security,us-east-1,141.84,,,53.9,,548.0,1,,0
+2026-07,Azure,RES-00773,Load Balancer,Prod,Applications,UK South,89.02,,,97.5,,1359.0,1,,0
+2026-07,AWS,RES-00774,Load Balancer,Prod,Cloud Ops,eu-west-1,167.33,,,63.9,,916.0,1,,0
+2026-07,Azure,RES-00775,SQL Database,Prod,Platform,West Europe,368.62,,,39.2,,,1,70.4,0
+2026-07,AWS,RES-00776,Load Balancer,Prod,Cloud Ops,us-east-1,96.29,,,96.7,,429.0,1,,0
+2026-07,Azure,RES-00777,Managed Disks,UAT,Data,UK South,119.46,,,66.8,24.8,,1,,0
+2026-07,AWS,RES-00778,S3,Dev,Applications,eu-west-1,77.99,,,65.9,32.8,421.0,1,,1
+2026-07,Azure,RES-00779,Managed Disks,Dev,Security,UK South,112.13,,,49.0,49.9,,1,,0
+2026-07,Azure,RES-00780,NAT Gateway,Dev,Platform,UK South,60.43,,,37.9,,,1,,0
+2026-07,Azure,RES-00781,Virtual Machines,Prod,Security,UK South,137.83,35.5,47.7,16.7,,,1,73.3,0
+2026-07,AWS,RES-00782,S3,UAT,Data,us-east-1,72.65,,,52.7,30.3,1142.0,1,,0
+2026-07,Azure,RES-00783,Load Balancer,UAT,Platform,West Europe,54.61,,,91.2,,417.0,1,,0
+2026-07,AWS,RES-00784,EC2,UAT,Data,us-east-1,357.22,22.8,24.7,98.2,,,1,20.3,0
+2026-07,AWS,RES-00785,EBS,Dev,Data,eu-west-2,30.41,,,78.6,14.5,,1,,0
+2026-07,AWS,RES-00786,S3,Dev,Platform,eu-west-2,63.37,,,61.6,26.2,342.0,1,,0
+2026-07,AWS,RES-00787,Load Balancer,Prod,Applications,us-east-1,57.15,,,94.4,,1015.0,1,,0
+2026-07,Azure,RES-00788,Virtual Machines,Prod,Cloud Ops,UK South,297.99,25.3,48.2,19.4,,,0,68.8,0
+2026-07,AWS,RES-00789,EBS,Dev,Applications,us-east-1,76.26,,,56.7,39.2,,1,,0
+2026-07,AWS,RES-00790,EC2,Prod,Platform,us-east-1,304.11,21.9,42.0,80.8,,,1,2.2,0
+2026-07,AWS,RES-00791,EC2,Prod,Security,eu-west-1,113.26,1.7,6.6,77.0,,,1,90.0,0
+2026-07,Azure,RES-00792,Load Balancer,Prod,Platform,West Europe,47.6,,,32.9,,3714.0,1,,0
+2026-07,AWS,RES-00793,S3,Dev,Applications,us-east-1,50.54,,,33.2,55.7,623.0,1,,0
+2026-07,AWS,RES-00794,EC2,Prod,Data,us-east-1,213.96,43.5,26.7,95.5,,,1,87.5,0
+2026-07,AWS,RES-00795,EBS,Prod,Security,eu-west-2,67.8,,,86.0,31.2,,1,,0
+2026-07,AWS,RES-00796,EBS,Dev,Data,us-east-1,95.78,,,52.3,47.7,,1,,0
+2026-07,Azure,RES-00797,NAT Gateway,Prod,Security,East US,138.27,,,70.4,,,1,,0
+2026-07,Azure,RES-00798,Blob Storage,UAT,Data,East US,52.56,,,66.3,50.6,375.0,1,,0
+2026-07,AWS,RES-00799,RDS,Prod,Security,us-east-1,485.92,,,87.6,,,1,94.8,0
+2026-07,AWS,RES-00800,S3,UAT,Data,eu-west-1,30.67,,,52.2,39.1,1055.0,0,,0
+2026-07,AWS,RES-00801,EBS,Prod,Applications,us-east-1,84.41,,,52.9,31.8,,1,,0
+2026-07,Azure,RES-00802,Managed Disks,Prod,Data,UK South,111.57,,,99.1,55.8,,1,,0
+2026-07,Azure,RES-00803,Virtual Machines,Dev,Data,East US,220.51,10.8,36.6,73.4,,,1,38.7,0
+2026-07,Azure,RES-00804,NAT Gateway,Dev,Data,UK South,119.98,,,86.3,,,1,,1
+2026-07,AWS,RES-00805,EBS,Dev,Cloud Ops,eu-west-1,36.03,,,62.1,9.5,,1,,0
+2026-07,Azure,RES-00806,Virtual Machines,UAT,Platform,UK South,292.69,44.2,29.3,80.2,,,1,73.3,0
+2026-07,Azure,RES-00807,SQL Database,Prod,Security,East US,583.26,,,72.3,,,1,82.3,0
+2026-07,Azure,RES-00808,Managed Disks,Dev,Security,West Europe,92.05,,,95.8,22.8,,1,,0
+2026-07,Azure,RES-00809,SQL Database,Prod,Security,UK South,137.17,,,64.9,,,1,4.5,0
+2026-07,AWS,RES-00810,RDS,UAT,Platform,eu-west-2,637.54,,,70.1,,,1,42.4,1
+2026-07,Azure,RES-00811,Load Balancer,Prod,Data,UK South,140.06,,,61.6,,240.0,1,,1
+2026-07,Azure,RES-00812,Virtual Machines,UAT,Security,UK South,164.12,12.1,57.1,59.4,,,1,44.7,0
+2026-07,AWS,RES-00813,EC2,Prod,Applications,eu-west-1,341.88,44.5,10.6,50.5,,,1,27.3,0
+2026-07,Azure,RES-00814,Virtual Machines,Dev,Cloud Ops,West Europe,136.85,42.6,17.9,51.9,,,1,88.7,0
+2026-07,Azure,RES-00815,Managed Disks,Prod,Platform,West Europe,42.46,,,82.3,20.2,,0,,0
+2026-07,AWS,RES-00816,NAT Gateway,Dev,Cloud Ops,eu-west-1,307.58,,,65.2,,,1,,0
+2026-07,AWS,RES-00817,EBS,Prod,Applications,us-east-1,52.91,,,39.1,13.3,,1,,0
+2026-07,Azure,RES-00818,Managed Disks,Prod,Cloud Ops,East US,59.91,,,91.8,36.1,,1,,0
+2026-07,Azure,RES-00819,Virtual Machines,Prod,Platform,West Europe,362.4,31.9,37.2,58.7,,,1,64.5,1
+2026-07,Azure,RES-00820,Managed Disks,UAT,Data,East US,38.05,,,78.9,40.7,,1,,0
+2026-07,AWS,RES-00821,S3,Prod,Applications,eu-west-2,27.79,,,58.7,61.5,1827.0,1,,0
+2026-07,AWS,RES-00822,EC2,Prod,Platform,eu-west-1,89.45,58.5,54.8,20.5,,,1,29.2,0
+2026-07,Azure,RES-00823,Managed Disks,Dev,Cloud Ops,East US,117.4,,,53.8,71.7,,0,,0
+2026-07,Azure,RES-00824,Blob Storage,Dev,Platform,West Europe,62.14,,,33.6,48.6,885.0,1,,0
+2026-07,Azure,RES-00825,Virtual Machines,Dev,Security,West Europe,166.84,46.7,37.6,58.7,,,1,97.8,0
+2026-07,Azure,RES-00826,Load Balancer,UAT,Platform,East US,56.98,,,53.6,,954.0,1,,0
+2026-07,AWS,RES-00827,Load Balancer,UAT,Data,us-east-1,135.6,,,31.2,,10751.0,1,,0
+2026-07,Azure,RES-00828,Managed Disks,UAT,Cloud Ops,UK South,47.92,,,89.4,21.9,,1,,0
+2026-07,AWS,RES-00829,RDS,Dev,Data,us-east-1,368.72,,,53.1,,,1,6.1,0
+2026-07,AWS,RES-00830,EC2,Prod,Data,eu-west-1,203.24,16.8,61.8,46.1,,,1,16.3,0
+2026-07,AWS,RES-00831,EC2,Prod,Security,us-east-1,301.89,36.9,18.9,42.8,,,1,17.2,0
+2026-07,Azure,RES-00832,SQL Database,Prod,Security,East US,411.1,,,93.6,,,1,5.9,0
+2026-07,AWS,RES-00833,Load Balancer,Prod,Applications,eu-west-1,113.91,,,75.5,,601.0,1,,0
+2026-07,AWS,RES-00834,Load Balancer,Dev,Cloud Ops,eu-west-2,263.78,,,66.5,,1130.0,1,,0
+2026-07,Azure,RES-00835,Virtual Machines,Dev,Cloud Ops,UK South,102.65,26.0,15.5,24.6,,,1,54.9,0
+2026-07,AWS,RES-00836,S3,UAT,Applications,eu-west-1,31.04,,,85.1,49.5,945.0,1,,0
+2026-07,AWS,RES-00837,RDS,Dev,Platform,us-east-1,211.62,,,73.9,,,1,11.4,0
+2026-07,AWS,RES-00838,EC2,Prod,Cloud Ops,eu-west-2,176.18,16.0,18.3,78.1,,,0,24.5,0
+2026-07,AWS,RES-00839,EBS,Prod,Platform,eu-west-2,95.62,,,91.9,35.3,,0,,0
+2026-07,Azure,RES-00840,Blob Storage,UAT,Data,East US,76.43,,,91.4,37.4,421.0,1,,0
